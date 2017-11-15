@@ -1,0 +1,64 @@
+{template '_header'}
+<div class='fui-page  fui-page-current'>
+    <div class="fui-header">
+		<div class="fui-header-left">
+			<a class="back" onclick='location.back()'></a>
+		</div>
+		<div class="title">用户登陆</div>
+		<a href="{php echo  mobileUrl('member/verify'); }" class="fui-header-right" style="font-size: 12px;">验证码登录</a>
+	</div>
+
+	<div class='fui-content' style='margin-top:5px; color: #666;'>
+
+		<style>.fui-cell-group .fui-cell .fui-cell-label {width: 4.5rem;}</style>
+
+		<div class="fui-cell-group">
+
+			<div class="fui-cell must">
+				<div class="fui-cell-label">手机号</div>
+				<div class="fui-cell-info"><input type="tel" class='fui-input' id='mobile' name='mobile' placeholder="请输入您的手机号"  value="{$member['mobile']}" maxlength="11" /></div>
+			</div>
+
+			<div class="fui-cell must">
+				<div class="fui-cell-label">登录密码</div>
+				<div class="fui-cell-info"><input type="password" class='fui-input' id='pwd' name='pwd' placeholder="请输入您的登录密码"  value="" /></div>
+			</div>
+		</div>
+
+
+		<a href='#' id='btnSubmit' class='btn btn-success block'>立即登陆</a>
+		<a href='{php echo  mobileUrl('member/bind'); }'  class='btn btn-success block' style="margin-top: 20px;background-color: #ffffff;color: green;" >马上注册</a>
+	</div>
+	<script src="../addons/ewei_shopv2/static/jiyin/js/tools.js"></script>
+	<script type="text/javascript">
+		require(['core', 'tpl'], function (core, tpl) {
+			//点击了登陆按钮
+			$('#btnSubmit').click(function(){
+				mobile=$('#mobile').val();
+				pwd=$('#pwd').val();
+				console.log(mobile+'-'+pwd);
+				data={
+					mobile:mobile,
+					pwd:pwd
+				};
+				core.json('member/login', data, function(ret) {
+					console.log(ret);
+					if(ret.status==1){
+						Tools.toast('登陆成功!');
+						setTimeout(function(){var url='{php echo  mobileUrl(''); }';window.location.href=url;},1000);
+					}
+					else{
+						Tools.toast('用户名或密码不正确!');						
+					}
+				}, false, true);							
+			});			
+		});
+		
+		
+
+		
+	</script>
+
+</div>
+{template '_footer'}
+

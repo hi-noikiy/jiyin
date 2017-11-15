@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>提交订单</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/setFontsize.js"></script>
+		
+		<style type="text/css">
+			.page {
+				background-color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<a id="show-list" href="javascript:;" class="left fl"><img src="img/header_left_icon.png"/></a>
+			<a href="#" class="center"><img src="img/header_main_bg.png"/></a>
+			<a href="#" class="right fr"><img src="img/header_right_icon.png"/></a>
+		</header>
+		<div id="mask" class="mask close-side hide" style="background-color: transparent; z-index: 101;"></div>
+		<div id="side-list" class="header-side">
+			<div class="top clearfix"><img class="fl close-side" src="img/header_left_icon1.png" /></div>
+			<div class="text-img"><img src="img/header_side_text.png" /></div>
+			<ul class="side-link">
+				<li>
+					<a href="#"><img src="img/side_link1.png" />首页</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link2.png" />检测流程</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link3.png" />用户故事</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link4.png" />常见问题</a>
+				</li>
+			</ul>
+		</div>
+		<div class="page">
+			<div id="mask2" class="hide" >
+				<div class="mask" onclick="$(this).parent().hide()"></div>
+				<div class="repair-mask">
+					<h2>请选择退款原因</h2>
+					<ul class="list">
+						<li>未收到采集盒</li>
+						<li>收到采样盒，未使用</li>
+						<li>采样盒已经使用，未寄出</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content refund fz-28 content-pad">
+				<div class="fs sel" onclick="$('#mask2').show()">
+					<span>退款说明：</span><span id="result">未收到采集盒</span>
+				</div>
+				<div class="fs">
+					<span>退款比例：</span><span>100%</span>
+				</div>
+				<div class="fs">
+					<span>退款金额：</span><span>1580 元</span>
+				</div>
+				<div class="fs">
+					<span>备注：</span><span>请拒收快递</span>
+				</div>
+				<div class="fs">
+					<span>状态：</span><span style="color: red;">申请中</span>
+				</div>
+				
+				<div class="btn-wrap">
+					<a href="#" class="btn btn-primary btn-mar">申请</a>
+					<a href="#" id="cancel" class="btn">取消</a>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/tools.js"></script>
+		<script type="text/javascript">
+			
+			window.onload = toggleSide;
+			
+			$(document).ready(function() {
+				$('#cancel').click(function() {
+					Tools.toast('取消成功');
+				})
+				
+				//配送方式点击条目
+				$('#mask2').delegate('li', 'click', function() {
+					$('#result').html(this.innerHTML);
+					$('#mask2').hide();
+				});
+			})
+			
+			function toggleSide () {
+				var listBtn = document.getElementById('show-list'),
+					sideList = document.getElementById('side-list'),
+					mask = document.getElementById('mask'),
+					closeEles = document.querySelectorAll('.close-side');
+				listBtn.onclick = function () {
+					showSide();
+				}
+				for (var i=0;i<closeEles.length; i++) {
+					closeEles[i].onclick = function() {
+						hideSide();
+					};
+				}
+				var showSide = function () {
+					mask.style.display = 'block';
+					sideList.style.webkitTransform = 'translateX(0)';
+					sideList.style.transform = 'translateX(0)';
+				}
+				var hideSide = function () {
+					sideList.style.webkitTransform = 'translateX(-100%)';
+					sideList.style.transform = 'translateX(-100%)';
+					setTimeout(function () {
+						mask.style.display = 'none';
+					}, 300);
+				}
+			}
+		</script>
+	</body>
+</html>

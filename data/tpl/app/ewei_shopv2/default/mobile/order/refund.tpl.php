@@ -1,0 +1,156 @@
+<?php defined('IN_IA') or exit('Access Denied');?><?php (!empty($this) && $this instanceof WeModuleSite) ? (include $this->template('common/header', TEMPLATE_INCLUDEPATH)) : (include template('common/header', TEMPLATE_INCLUDEPATH));?>
+		<style type="text/css">
+			.page {
+				background-color: #fff;
+			}
+		</style>
+		<div class="page">
+			<div id="mask2" class="hide" >
+				<div class="mask" onclick="$(this).parent().hide()"></div>
+				<div class="repair-mask">
+					<h2>请选择退款原因</h2>
+					<ul class="list">
+						<?php  if(is_array($refundlist)) { foreach($refundlist as $item) { ?>
+							<li id="<?php  echo $item['id'];?>"><?php  echo $item['title'];?></li>
+						<?php  } } ?>
+					</ul>
+				</div>
+			</div>
+			<div class="content refund fz-28 content-pad">
+				<div class="fs sel" onclick="$('#mask2').show()">
+					<span>退款说明：</span><span id="result" style="padding-right: 0.6rem;">未收到采集盒<img style="width: 0.24rem;" src="../addons/ewei_shopv2/static/jiyin/img/bottom_arrow.png" alt="" /></span>
+				</div>
+				<div class="fs">
+					<span>退款比例：</span><span class="rate">100%</span>
+				</div>
+				<div class="fs">
+					<span>退款金额：</span><span><span class="money">1580</span> 元</span>
+				</div>
+				<div class="fs">
+					<span>备注：</span><span class="remark">请拒收快递</span>
+				</div>
+				<div class="fs">
+					<span>状态：</span><span style="color: red;">
+						<?php  if($thisre) { ?>	
+							<?php  if($thisre['status']==0) { ?>
+								等待商家处理
+							<?php  } ?>
+							<?php  if($thisre['status']>=3) { ?>
+								商家已经通过
+							<?php  } ?>
+							<?php  if($thisre['status']==-1) { ?>
+								商家已经拒绝
+							<?php  } ?>							
+						<?php  } else { ?>
+							未申请
+						<?php  } ?>
+					</span>
+				</div>
+				<?php  if($thisre['status']==-1) { ?>
+				<div class="fs">
+					<span>商家回复：<span style="color: red;"><?php  echo $thisre['reply'];?></span></span>
+				</div>	
+				<?php  } ?>
+				
+				
+				<div class="btn-wrap">
+					<a class="btn btn-primary btn-mar  add">申请</a>
+					<a  id="cancel" class="btn">取消</a>
+				</div>
+			</div>
+		</div>
+		<script src="../addons/ewei_shopv2/static/jiyin/js/leftmenu.js"></script>		
+		<script type="text/javascript">
+			require(['core'], function (core) {
+				
+				//默认执行一次
+				var rid=getselect();		
+				getrefundinfo(rid);
+				//1.取消退款
+				$('#cancel').click(function() {
+					Tools.toast('取消成功');
+				})
+				
+				
+				//2.请求查询当前的情况退款多少
+				function  getrefundinfo(rid,oid=<?php  echo $_GPC['id']?>){
+					console.log(rid+'-'+oid);
+					core.json('order/refund/getone', {
+						'rid': rid,
+						'oid': oid,
+					}, function(ret) {
+						console.log(ret);
+						if (ret.status == 1) {
+							$('.rate').text(ret.result.refund.rate+'%');//更新退款比例
+							$('.money').text(ret.result.refund.money);//更新退款金额
+							$('.remark').text(ret.result.refund.remark);//更新备注
+						}
+					}, true, true)						
+				}
+				
+				
+				//3.获取默认选中
+				function  getselect(){
+					var rid=$('.list li').eq(0).attr('id');
+					if(rid===undefined || rid ==''){
+						Tools.toast('数据加载失败!');
+					}
+					return rid;
+				}
+				
+				//4.提交退款申请
+				$('.add').click(function(){
+					
+					core.json('order/refund/submit', {
+						'id': <?php  echo $_GPC['id']?>,
+						'rtype':0 ,
+						'content':$('#result').text(),
+						'price': $('.money').text()
+					}, function(ret) {
+						console.log(ret);
+						
+						if (ret.status == 1) {
+							location.href = core.getUrl('order/detail', {
+								id: <?php  echo $_GPC['id']?>
+							});
+							
+						}
+						else{
+							Tools.toast(ret.result.message);
+						}
+					}, true, true)					
+				});
+				
+				//5.取消申请
+				$('#cancel').click(function(){
+					core.json('order/refund/cancel', {
+						'id': <?php  echo $_GPC['id']?>
+					}, function(postjson) {
+						if (postjson.status == 1) {
+							location.href = core.getUrl('order/detail', {
+								id: <?php  echo $_GPC['id']?>
+							});
+							return
+						} else {
+							Tools.toast(postjson.result.message);							
+						}
+					}, true, true);					
+				});
+				
+				//选作的切换
+				$('#mask2').delegate('li', 'click', function() {
+					var rid=$(this).attr('id');
+					//跪求后端给我计算价格
+					getrefundinfo(rid);
+					//跪求结束
+					$('#result').html(this.innerHTML);
+					$('#mask2').hide();
+				});								
+			});
+
+
+			
+
+		</script>
+	</body>
+</html>		

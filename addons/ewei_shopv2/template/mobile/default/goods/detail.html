@@ -1,0 +1,60 @@
+{template 'common/header'}
+
+
+
+<link rel="stylesheet" type="text/css" href="../addons/ewei_shopv2/static/jiyin/css/swiper.min.css"/>
+		<style type="text/css">
+			.content {
+				bottom: 0.8rem;
+			}
+		</style>
+
+			<div class="content">
+				<div class="swiper-container detail-swipe">
+					<div class="swiper-wrapper">
+						{loop $thumbs $thumb}
+							<div class="swiper-slide"><img src="{php echo tomedia($thumb)}" /></div>
+						{/loop}
+					</div>
+				</div>
+				<h1 class="detail-ttile f-b over_2">{$goods['title']}</h1>
+				<div class="detail-params img-100">
+					{$goods['content']}
+				</div>
+			</div>
+			<a  class="detail-add-btn">立即购买({$goods['marketprice']}元)</a>
+		</div>
+		<script src=""></script>
+		<script type="text/javascript">
+    		require(['core', 'tpl','../addons/ewei_shopv2/static/jiyin/js/swiper-3.4.2.min.js'], function (core, tpl,swipe) {
+				toggleSide();
+				Tools.swipe('.swiper-container');
+				
+				
+				//添加到购物车
+				var id='{$goods[id]}';
+				$('.detail-add-btn').click(function(){
+					
+					core.json('member/cart/add', {'id':id,'total':1}, function(json) {
+						var url="{php echo  mobileUrl('member/cart'); }";
+						if(json.status==1){
+							Tools.toast('添加成功,进入购物车');
+							setTimeout(function(){window.location.href=url;},1000);
+						}
+						else{
+							Tools.toast('添加失败');					
+						}
+					});
+						
+				});
+				
+				document.title = '{$goods['title']}';
+    		});
+			
+		</script>
+		
+		
+		<script src="../addons/ewei_shopv2/static/jiyin/js/leftmenu.js"></script>
+		{template '_share'}		
+	</body>
+</html>

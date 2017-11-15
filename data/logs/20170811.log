@@ -1,0 +1,3636 @@
+2017-08-11 00:14:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwOwNTF9sNyPEiVzWg5VV_4E]]></FromUserName>
+<CreateTime>1502381627</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>45.823914</Latitude>
+<Longitude>126.496376</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 00:14:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwOwNTF9sNyPEiVzWg5VV_4E',
+    'createtime' => '1502381627',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '45.823914',
+    'longitude' => '126.496376',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwOwNTF9sNyPEiVzWg5VV_4E',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502381627',
+    'type' => 'trace',
+    'location_x' => '45.823914',
+    'location_y' => '126.496376',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 00:14:02 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 01:53:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwOqTw8QX2lU3FFW10DlQAaw]]></FromUserName>
+<CreateTime>1502387588</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>38.395947</Latitude>
+<Longitude>-121.399925</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 01:53:23 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwOqTw8QX2lU3FFW10DlQAaw',
+    'createtime' => '1502387588',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '38.395947',
+    'longitude' => '-121.399925',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwOqTw8QX2lU3FFW10DlQAaw',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502387588',
+    'type' => 'trace',
+    'location_x' => '38.395947',
+    'location_y' => '-121.399925',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 01:53:23 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 01:53:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwOqTw8QX2lU3FFW10DlQAaw]]></FromUserName>
+<CreateTime>1502387606</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>38.395905</Latitude>
+<Longitude>-121.399910</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 01:53:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwOqTw8QX2lU3FFW10DlQAaw',
+    'createtime' => '1502387606',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '38.395905',
+    'longitude' => '-121.399910',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwOqTw8QX2lU3FFW10DlQAaw',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502387606',
+    'type' => 'trace',
+    'location_x' => '38.395905',
+    'location_y' => '-121.399910',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 01:53:41 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 06:26:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAtCvYoEvL60ItkdAFnpduc]]></FromUserName>
+<CreateTime>1502403974</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>45.804005</Latitude>
+<Longitude>126.516884</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 06:26:30 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAtCvYoEvL60ItkdAFnpduc',
+    'createtime' => '1502403974',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '45.804005',
+    'longitude' => '126.516884',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwAtCvYoEvL60ItkdAFnpduc',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502403974',
+    'type' => 'trace',
+    'location_x' => '45.804005',
+    'location_y' => '126.516884',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 06:26:30 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 06:28:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwOEwYyj7Bul7KVyVkuYiegY]]></FromUserName>
+<CreateTime>1502404108</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>45.718296</Latitude>
+<Longitude>126.687798</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 06:28:44 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwOEwYyj7Bul7KVyVkuYiegY',
+    'createtime' => '1502404108',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '45.718296',
+    'longitude' => '126.687798',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwOEwYyj7Bul7KVyVkuYiegY',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502404108',
+    'type' => 'trace',
+    'location_x' => '45.718296',
+    'location_y' => '126.687798',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 06:28:44 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 07:22:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwPwVYlDWRU_LFWqIUT-DTgg]]></FromUserName>
+<CreateTime>1502407357</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>1.335417</Latitude>
+<Longitude>103.843887</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 07:22:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwPwVYlDWRU_LFWqIUT-DTgg',
+    'createtime' => '1502407357',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '1.335417',
+    'longitude' => '103.843887',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwPwVYlDWRU_LFWqIUT-DTgg',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502407357',
+    'type' => 'trace',
+    'location_x' => '1.335417',
+    'location_y' => '103.843887',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 07:22:52 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 08:42:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwFr02bukwzeVAMSYWvuDATs]]></FromUserName>
+<CreateTime>1502412126</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>45.796619</Latitude>
+<Longitude>126.505959</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 08:42:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwFr02bukwzeVAMSYWvuDATs',
+    'createtime' => '1502412126',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '45.796619',
+    'longitude' => '126.505959',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwFr02bukwzeVAMSYWvuDATs',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502412126',
+    'type' => 'trace',
+    'location_x' => '45.796619',
+    'location_y' => '126.505959',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 08:42:21 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 10:02:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKUTmUX7ohqqGH_J9c9qNqs]]></FromUserName>
+<CreateTime>1502416949</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>23.366022</Latitude>
+<Longitude>116.748161</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 10:02:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKUTmUX7ohqqGH_J9c9qNqs',
+    'createtime' => '1502416949',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '23.366022',
+    'longitude' => '116.748161',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwKUTmUX7ohqqGH_J9c9qNqs',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502416949',
+    'type' => 'trace',
+    'location_x' => '23.366022',
+    'location_y' => '116.748161',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 10:02:45 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 10:06:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1502417204</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526075</Latitude>
+<Longitude>113.933777</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 10:06:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1502417204',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526075',
+    'longitude' => '113.933777',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502417204',
+    'type' => 'trace',
+    'location_x' => '22.526075',
+    'location_y' => '113.933777',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 10:06:59 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 10:26:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1502418396</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591192</Latitude>
+<Longitude>113.952286</Longitude>
+<Precision>10.000000</Precision>
+</xml>
+
+2017-08-11 10:26:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1502418396',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591192',
+    'longitude' => '113.952286',
+    'precision' => '10.000000',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502418396',
+    'type' => 'trace',
+    'location_x' => '22.591192',
+    'location_y' => '113.952286',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 10:26:51 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 10:30:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwIHduqdyqRkjwcMVS4mBGto]]></FromUserName>
+<CreateTime>1502418642</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.519258</Latitude>
+<Longitude>113.916649</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 10:30:58 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwIHduqdyqRkjwcMVS4mBGto',
+    'createtime' => '1502418642',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.519258',
+    'longitude' => '113.916649',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwIHduqdyqRkjwcMVS4mBGto',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502418642',
+    'type' => 'trace',
+    'location_x' => '22.519258',
+    'location_y' => '113.916649',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 10:30:58 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 10:31:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwIHduqdyqRkjwcMVS4mBGto]]></FromUserName>
+<CreateTime>1502418683</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.519258</Latitude>
+<Longitude>113.916649</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 10:31:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwIHduqdyqRkjwcMVS4mBGto',
+    'createtime' => '1502418683',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.519258',
+    'longitude' => '113.916649',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwIHduqdyqRkjwcMVS4mBGto',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502418683',
+    'type' => 'trace',
+    'location_x' => '22.519258',
+    'location_y' => '113.916649',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 10:31:38 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 10:45:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwCYWneaclxDMnG1xTfxMtiM]]></FromUserName>
+<CreateTime>1502419541</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-11 10:45:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwCYWneaclxDMnG1xTfxMtiM',
+    'createtime' => '1502419541',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o6A_bwCYWneaclxDMnG1xTfxMtiM',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502419541',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '关注回复',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 10:45:56 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwCYWneaclxDMnG1xTfxMtiM ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 10:46:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwCYWneaclxDMnG1xTfxMtiM]]></FromUserName>
+<CreateTime>1502419544</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.089912</Latitude>
+<Longitude>116.275314</Longitude>
+<Precision>40.000000</Precision>
+</xml>
+
+2017-08-11 10:46:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwCYWneaclxDMnG1xTfxMtiM',
+    'createtime' => '1502419544',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '40.089912',
+    'longitude' => '116.275314',
+    'precision' => '40.000000',
+    'from' => 'o6A_bwCYWneaclxDMnG1xTfxMtiM',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502419544',
+    'type' => 'trace',
+    'location_x' => '40.089912',
+    'location_y' => '116.275314',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 10:46:00 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:10:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1502420992</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6452849025880942819</MsgId>
+</xml>
+
+2017-08-11 11:10:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1502420992',
+    'msgtype' => 'text',
+    'content' => '商城',
+    'msgid' => '6452849025880942819',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502420992',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '37',
+    'rid' => '21',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '商城',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 11:10:08 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile ;
+
+2017-08-11 11:11:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421047</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526243</Latitude>
+<Longitude>113.933960</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:11:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421047',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526243',
+    'longitude' => '113.933960',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421047',
+    'type' => 'trace',
+    'location_x' => '22.526243',
+    'location_y' => '113.933960',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:11:02 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:11:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421055</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城
+]]></Content>
+<MsgId>6452849296463882476</MsgId>
+</xml>
+
+2017-08-11 11:11:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421055',
+    'msgtype' => 'text',
+    'content' => '关注回复',
+    'msgid' => '6452849296463882476',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421055',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => true,
+    'source' => 'default',
+    'original' => '商城
+',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 11:11:11 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwC2rK2n5IB5Zrde52XN1aac ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 11:11:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421072</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6452849369478326515</MsgId>
+</xml>
+
+2017-08-11 11:11:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421072',
+    'msgtype' => 'text',
+    'content' => '商城',
+    'msgid' => '6452849369478326515',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421072',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '37',
+    'rid' => '21',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '商城',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 11:11:27 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwC2rK2n5IB5Zrde52XN1aac ;
+MsgType : text ;
+Content : http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile ;
+
+2017-08-11 11:11:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421091</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526243</Latitude>
+<Longitude>113.933960</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:11:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421091',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526243',
+    'longitude' => '113.933960',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421091',
+    'type' => 'trace',
+    'location_x' => '22.526243',
+    'location_y' => '113.933960',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:11:46 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:11:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421098</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526209</Latitude>
+<Longitude>113.933945</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:11:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421098',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526209',
+    'longitude' => '113.933945',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421098',
+    'type' => 'trace',
+    'location_x' => '22.526209',
+    'location_y' => '113.933945',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:11:53 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:12:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421126</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526209</Latitude>
+<Longitude>113.933945</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:12:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421126',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526209',
+    'longitude' => '113.933945',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421126',
+    'type' => 'trace',
+    'location_x' => '22.526209',
+    'location_y' => '113.933945',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:12:21 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:12:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421133</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526234</Latitude>
+<Longitude>113.933685</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:12:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421133',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526234',
+    'longitude' => '113.933685',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421133',
+    'type' => 'trace',
+    'location_x' => '22.526234',
+    'location_y' => '113.933685',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:12:28 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:13:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421205</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526220</Latitude>
+<Longitude>113.933968</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:13:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421205',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526220',
+    'longitude' => '113.933968',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421205',
+    'type' => 'trace',
+    'location_x' => '22.526220',
+    'location_y' => '113.933968',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:13:40 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:14:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421243</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526220</Latitude>
+<Longitude>113.933968</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:14:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421243',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526220',
+    'longitude' => '113.933968',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421243',
+    'type' => 'trace',
+    'location_x' => '22.526220',
+    'location_y' => '113.933968',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:14:18 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:17:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1502421411</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526072</Latitude>
+<Longitude>113.933784</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 11:17:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1502421411',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526072',
+    'longitude' => '113.933784',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421411',
+    'type' => 'trace',
+    'location_x' => '22.526072',
+    'location_y' => '113.933784',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:17:07 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:18:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1502421480</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591274</Latitude>
+<Longitude>113.952179</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 11:18:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1502421480',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591274',
+    'longitude' => '113.952179',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421480',
+    'type' => 'trace',
+    'location_x' => '22.591274',
+    'location_y' => '113.952179',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:18:16 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:20:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421599</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526300</Latitude>
+<Longitude>113.933502</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:20:15 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421599',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526300',
+    'longitude' => '113.933502',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421599',
+    'type' => 'trace',
+    'location_x' => '22.526300',
+    'location_y' => '113.933502',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:20:15 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:25:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421888</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526251</Latitude>
+<Longitude>113.933624</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:25:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421888',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526251',
+    'longitude' => '113.933624',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421888',
+    'type' => 'trace',
+    'location_x' => '22.526251',
+    'location_y' => '113.933624',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:25:04 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:25:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502421901</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526251</Latitude>
+<Longitude>113.933624</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:25:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502421901',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526251',
+    'longitude' => '113.933624',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502421901',
+    'type' => 'trace',
+    'location_x' => '22.526251',
+    'location_y' => '113.933624',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:25:17 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:29:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1502422179</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526104</Latitude>
+<Longitude>113.933754</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 11:29:54 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1502422179',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526104',
+    'longitude' => '113.933754',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422179',
+    'type' => 'trace',
+    'location_x' => '22.526104',
+    'location_y' => '113.933754',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:29:54 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:30:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1502422189</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6452854166956796390</MsgId>
+</xml>
+
+2017-08-11 11:30:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1502422189',
+    'msgtype' => 'text',
+    'content' => '商城',
+    'msgid' => '6452854166956796390',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422189',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '37',
+    'rid' => '21',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '商城',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 11:30:05 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile ;
+
+2017-08-11 11:30:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502422218</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526239</Latitude>
+<Longitude>113.933678</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:30:33 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502422218',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526239',
+    'longitude' => '113.933678',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422218',
+    'type' => 'trace',
+    'location_x' => '22.526239',
+    'location_y' => '113.933678',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:30:33 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:32:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwE0jNizihJl-WBD6MHv_AF8]]></FromUserName>
+<CreateTime>1502422305</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>38.016346</Latitude>
+<Longitude>114.546036</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:32:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwE0jNizihJl-WBD6MHv_AF8',
+    'createtime' => '1502422305',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '38.016346',
+    'longitude' => '114.546036',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwE0jNizihJl-WBD6MHv_AF8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422305',
+    'type' => 'trace',
+    'location_x' => '38.016346',
+    'location_y' => '114.546036',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:32:01 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:32:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwE0jNizihJl-WBD6MHv_AF8]]></FromUserName>
+<CreateTime>1502422317</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>38.016346</Latitude>
+<Longitude>114.546036</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:32:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwE0jNizihJl-WBD6MHv_AF8',
+    'createtime' => '1502422317',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '38.016346',
+    'longitude' => '114.546036',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwE0jNizihJl-WBD6MHv_AF8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422317',
+    'type' => 'trace',
+    'location_x' => '38.016346',
+    'location_y' => '114.546036',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:32:12 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:32:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwE0jNizihJl-WBD6MHv_AF8]]></FromUserName>
+<CreateTime>1502422318</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 11:32:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwE0jNizihJl-WBD6MHv_AF8',
+    'createtime' => '1502422318',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwE0jNizihJl-WBD6MHv_AF8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422318',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 11:32:14 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwE0jNizihJl-WBD6MHv_AF8 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 11:32:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502422356</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526243</Latitude>
+<Longitude>113.933929</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:32:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502422356',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526243',
+    'longitude' => '113.933929',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422356',
+    'type' => 'trace',
+    'location_x' => '22.526243',
+    'location_y' => '113.933929',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:32:51 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:33:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1502422369</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591209</Latitude>
+<Longitude>113.952187</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 11:33:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1502422369',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591209',
+    'longitude' => '113.952187',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422369',
+    'type' => 'trace',
+    'location_x' => '22.591209',
+    'location_y' => '113.952187',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:33:04 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:33:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwE0jNizihJl-WBD6MHv_AF8]]></FromUserName>
+<CreateTime>1502422416</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>38.016319</Latitude>
+<Longitude>114.545921</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:33:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwE0jNizihJl-WBD6MHv_AF8',
+    'createtime' => '1502422416',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '38.016319',
+    'longitude' => '114.545921',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwE0jNizihJl-WBD6MHv_AF8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422416',
+    'type' => 'trace',
+    'location_x' => '38.016319',
+    'location_y' => '114.545921',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:33:51 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:33:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502422421</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526247</Latitude>
+<Longitude>113.933670</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:33:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502422421',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526247',
+    'longitude' => '113.933670',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422421',
+    'type' => 'trace',
+    'location_x' => '22.526247',
+    'location_y' => '113.933670',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:33:57 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:34:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502422434</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526247</Latitude>
+<Longitude>113.933670</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:34:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502422434',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526247',
+    'longitude' => '113.933670',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422434',
+    'type' => 'trace',
+    'location_x' => '22.526247',
+    'location_y' => '113.933670',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:34:09 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:35:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1502422504</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526129</Latitude>
+<Longitude>113.933777</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 11:35:19 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1502422504',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526129',
+    'longitude' => '113.933777',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422504',
+    'type' => 'trace',
+    'location_x' => '22.526129',
+    'location_y' => '113.933777',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:35:19 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:35:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502422526</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526300</Latitude>
+<Longitude>113.933548</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:35:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502422526',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526300',
+    'longitude' => '113.933548',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422526',
+    'type' => 'trace',
+    'location_x' => '22.526300',
+    'location_y' => '113.933548',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:35:42 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:35:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502422535</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526300</Latitude>
+<Longitude>113.933548</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:35:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502422535',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526300',
+    'longitude' => '113.933548',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422535',
+    'type' => 'trace',
+    'location_x' => '22.526300',
+    'location_y' => '113.933548',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:35:50 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:39:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502422760</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526272</Latitude>
+<Longitude>113.933601</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:39:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502422760',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526272',
+    'longitude' => '113.933601',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502422760',
+    'type' => 'trace',
+    'location_x' => '22.526272',
+    'location_y' => '113.933601',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:39:35 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:49:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1502423327</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591154</Latitude>
+<Longitude>113.951996</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:49:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1502423327',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591154',
+    'longitude' => '113.951996',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502423327',
+    'type' => 'trace',
+    'location_x' => '22.591154',
+    'location_y' => '113.951996',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:49:03 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 11:49:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502423363</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526245</Latitude>
+<Longitude>113.933662</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 11:49:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502423363',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526245',
+    'longitude' => '113.933662',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502423363',
+    'type' => 'trace',
+    'location_x' => '22.526245',
+    'location_y' => '113.933662',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 11:49:38 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 12:03:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwFGWYJvVoHhi7lfHJTvnLtI]]></FromUserName>
+<CreateTime>1502424182</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>45.624626</Latitude>
+<Longitude>126.592354</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 12:03:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwFGWYJvVoHhi7lfHJTvnLtI',
+    'createtime' => '1502424182',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '45.624626',
+    'longitude' => '126.592354',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwFGWYJvVoHhi7lfHJTvnLtI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502424182',
+    'type' => 'trace',
+    'location_x' => '45.624626',
+    'location_y' => '126.592354',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 12:03:17 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 12:08:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1502424471</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.525658</Latitude>
+<Longitude>113.934784</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 12:08:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1502424471',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.525658',
+    'longitude' => '113.934784',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502424471',
+    'type' => 'trace',
+    'location_x' => '22.525658',
+    'location_y' => '113.934784',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 12:08:06 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 12:08:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502424485</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.525373</Latitude>
+<Longitude>113.935066</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 12:08:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502424485',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.525373',
+    'longitude' => '113.935066',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502424485',
+    'type' => 'trace',
+    'location_x' => '22.525373',
+    'location_y' => '113.935066',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 12:08:20 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 12:13:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC2rK2n5IB5Zrde52XN1aac]]></FromUserName>
+<CreateTime>1502424781</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.525574</Latitude>
+<Longitude>113.935219</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 12:13:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'createtime' => '1502424781',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.525574',
+    'longitude' => '113.935219',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwC2rK2n5IB5Zrde52XN1aac',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502424781',
+    'type' => 'trace',
+    'location_x' => '22.525574',
+    'location_y' => '113.935219',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 12:13:17 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 13:21:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1502428865</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526070</Latitude>
+<Longitude>113.933762</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 13:21:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1502428865',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526070',
+    'longitude' => '113.933762',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502428865',
+    'type' => 'trace',
+    'location_x' => '22.526070',
+    'location_y' => '113.933762',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 13:21:20 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 14:03:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwIdiN6XlYZRaNuIKaHsnEcc]]></FromUserName>
+<CreateTime>1502431365</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>40.178394</Latitude>
+<Longitude>116.649345</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 14:03:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwIdiN6XlYZRaNuIKaHsnEcc',
+    'createtime' => '1502431365',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '40.178394',
+    'longitude' => '116.649345',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwIdiN6XlYZRaNuIKaHsnEcc',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502431365',
+    'type' => 'trace',
+    'location_x' => '40.178394',
+    'location_y' => '116.649345',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 14:03:00 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 14:28:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwFE5tQUZr7IPrM8jak8oAZE]]></FromUserName>
+<CreateTime>1502432893</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>29.558527</Latitude>
+<Longitude>106.457382</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 14:28:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwFE5tQUZr7IPrM8jak8oAZE',
+    'createtime' => '1502432893',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '29.558527',
+    'longitude' => '106.457382',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwFE5tQUZr7IPrM8jak8oAZE',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502432893',
+    'type' => 'trace',
+    'location_x' => '29.558527',
+    'location_y' => '106.457382',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 14:28:28 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 15:35:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNSmbrLTroyNBih6uE7S2ec]]></FromUserName>
+<CreateTime>1502436913</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.564289</Latitude>
+<Longitude>118.095161</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 15:35:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNSmbrLTroyNBih6uE7S2ec',
+    'createtime' => '1502436913',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '39.564289',
+    'longitude' => '118.095161',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNSmbrLTroyNBih6uE7S2ec',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502436913',
+    'type' => 'trace',
+    'location_x' => '39.564289',
+    'location_y' => '118.095161',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 15:35:28 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 15:44:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437437</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>28.148727</Latitude>
+<Longitude>113.058998</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 15:44:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437437',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '28.148727',
+    'longitude' => '113.058998',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437437',
+    'type' => 'trace',
+    'location_x' => '28.148727',
+    'location_y' => '113.058998',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 15:44:13 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 15:44:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437437</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 15:44:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437437',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437437',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 15:44:13 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 15:44:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437454</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://www.firstories.com/signin]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 15:44:30 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437454',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://www.firstories.com/signin',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437454',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'https://www.firstories.com/signin',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 15:44:30 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 15:44:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437460</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 15:44:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437460',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437460',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 15:44:36 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 15:44:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437468</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测  流程]]></EventKey>
+</xml>
+
+2017-08-11 15:44:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437468',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测  流程',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437468',
+    'type' => 'text',
+    'content' => '检测  流程',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '25',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '42',
+    'rid' => '25',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测  流程',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 15:44:43 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-08-11 15:46:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437588</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=7&sn=f97a3170710d9d4e8ab0d2919a0a2ec7&scene=18#wechat_redirect]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 15:46:44 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437588',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=7&sn=f97a3170710d9d4e8ab0d2919a0a2ec7&scene=18#wechat_redirect',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437588',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=7&sn=f97a3170710d9d4e8ab0d2919a0a2ec7&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 15:46:44 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 15:46:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437598</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[用户解答]]></EventKey>
+</xml>
+
+2017-08-11 15:46:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437598',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '用户解答',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437598',
+    'type' => 'text',
+    'content' => '用户解答',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '27',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '46',
+    'rid' => '27',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '用户解答',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 15:46:53 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-08-11 15:48:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437703</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 15:48:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437703',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437703',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 15:48:38 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 15:48:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502437721</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测须知]]></EventKey>
+</xml>
+
+2017-08-11 15:48:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502437721',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测须知',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502437721',
+    'type' => 'text',
+    'content' => '检测须知',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '20',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '36',
+    'rid' => '20',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测须知',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 15:48:56 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : news ;
+ArticleCount : 2 ;
+Articles : Array ;
+
+2017-08-11 16:11:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1502439074</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526239</Latitude>
+<Longitude>113.933945</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 16:11:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1502439074',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526239',
+    'longitude' => '113.933945',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439074',
+    'type' => 'trace',
+    'location_x' => '22.526239',
+    'location_y' => '113.933945',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 16:11:29 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 16:11:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1502439079</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6452926708954430320</MsgId>
+</xml>
+
+2017-08-11 16:11:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1502439079',
+    'msgtype' => 'text',
+    'content' => '商城',
+    'msgid' => '6452926708954430320',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439079',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '37',
+    'rid' => '21',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '商城',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 16:11:35 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile ;
+
+2017-08-11 16:12:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1502439119</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591154</Latitude>
+<Longitude>113.952003</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 16:12:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1502439119',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591154',
+    'longitude' => '113.952003',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439119',
+    'type' => 'trace',
+    'location_x' => '22.591154',
+    'location_y' => '113.952003',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 16:12:14 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 16:14:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1502439256</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526241</Latitude>
+<Longitude>113.933922</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-11 16:14:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1502439256',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526241',
+    'longitude' => '113.933922',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439256',
+    'type' => 'trace',
+    'location_x' => '22.526241',
+    'location_y' => '113.933922',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 16:14:32 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 16:16:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1502439356</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591175</Latitude>
+<Longitude>113.952019</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 16:16:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1502439356',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591175',
+    'longitude' => '113.952019',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439356',
+    'type' => 'trace',
+    'location_x' => '22.591175',
+    'location_y' => '113.952019',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 16:16:11 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 16:22:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNktLI3ySNdsroYsa7t9RlY]]></FromUserName>
+<CreateTime>1502439729</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://www.firstories.com/signin]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 16:22:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'createtime' => '1502439729',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://www.firstories.com/signin',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439729',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'https://www.firstories.com/signin',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 16:22:25 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNktLI3ySNdsroYsa7t9RlY ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 16:22:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNktLI3ySNdsroYsa7t9RlY]]></FromUserName>
+<CreateTime>1502439735</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[https://www.firstories.com/signin]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 16:22:30 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'createtime' => '1502439735',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'https://www.firstories.com/signin',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439735',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'https://www.firstories.com/signin',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 16:22:30 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNktLI3ySNdsroYsa7t9RlY ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 16:22:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNktLI3ySNdsroYsa7t9RlY]]></FromUserName>
+<CreateTime>1502439739</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 16:22:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'createtime' => '1502439739',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439739',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 16:22:35 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNktLI3ySNdsroYsa7t9RlY ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 16:22:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNktLI3ySNdsroYsa7t9RlY]]></FromUserName>
+<CreateTime>1502439750</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[用户解答]]></EventKey>
+</xml>
+
+2017-08-11 16:22:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'createtime' => '1502439750',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '用户解答',
+    'from' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439750',
+    'type' => 'text',
+    'content' => '用户解答',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '27',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '46',
+    'rid' => '27',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '用户解答',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 16:22:45 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNktLI3ySNdsroYsa7t9RlY ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-08-11 16:23:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNktLI3ySNdsroYsa7t9RlY]]></FromUserName>
+<CreateTime>1502439794</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[商城]]></Content>
+<MsgId>6452929779856047262</MsgId>
+</xml>
+
+2017-08-11 16:23:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'createtime' => '1502439794',
+    'msgtype' => 'text',
+    'content' => '商城',
+    'msgid' => '6452929779856047262',
+    'from' => 'o6A_bwNktLI3ySNdsroYsa7t9RlY',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502439794',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'basic',
+  'rule' => '21',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '37',
+    'rid' => '21',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '商城',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 16:23:29 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNktLI3ySNdsroYsa7t9RlY ;
+MsgType : text ;
+Content : http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile ;
+
+2017-08-11 17:06:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDxP7UVeXCdAO2GMsnSGCKA]]></FromUserName>
+<CreateTime>1502442349</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.742704</Latitude>
+<Longitude>114.093956</Longitude>
+<Precision>10.000000</Precision>
+</xml>
+
+2017-08-11 17:06:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'createtime' => '1502442349',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.742704',
+    'longitude' => '114.093956',
+    'precision' => '10.000000',
+    'from' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502442349',
+    'type' => 'trace',
+    'location_x' => '22.742704',
+    'location_y' => '114.093956',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 17:06:05 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-11 17:46:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1502444804</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17]]></EventKey>
+<MenuId>417046646</MenuId>
+</xml>
+
+2017-08-11 17:46:59 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1502444804',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+    'menuid' => '417046646',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502444804',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-11 17:46:59 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-08-11 19:55:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwFHLTB_SpcCXNcXgR73I4K8]]></FromUserName>
+<CreateTime>1502452543</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.970325</Latitude>
+<Longitude>116.368706</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-11 19:55:58 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwFHLTB_SpcCXNcXgR73I4K8',
+    'createtime' => '1502452543',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '39.970325',
+    'longitude' => '116.368706',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwFHLTB_SpcCXNcXgR73I4K8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1502452543',
+    'type' => 'trace',
+    'location_x' => '39.970325',
+    'location_y' => '116.368706',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-11 19:55:58 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+

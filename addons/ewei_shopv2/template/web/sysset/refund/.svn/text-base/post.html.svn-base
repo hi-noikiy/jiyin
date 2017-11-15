@@ -1,0 +1,183 @@
+{php $no_left=true}
+{template '_header'}
+<style>
+    .form-horizontal .form-group{margin-right: -50px;}
+    .col-sm-9{padding-right: 0;}
+	.tm .btn { margin-bottom:5px;}
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        text-overflow: clip;
+    }
+</style>
+
+<div class="page-heading"> 
+	
+	<span class='pull-right'>
+		
+
+		<a class="btn btn-default  btn-sm" href="{php echo webUrl('sysset/refund')}">返回列表</a>
+	</span>
+	<h2>{if !empty($item['id'])}编辑{else}添加{/if}退款设置 <small>{if !empty($item['id'])}修改【{$item['title']}】{/if}</small></h2> 
+</div>
+
+<div class="row">
+	<div class="col-sm-9">
+		
+	 <form {ife 'sysset.printer' $list}action="" method="post"{/if} class="form-horizontal form-validate" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label must" >退款说明</label>
+                    <div class="col-sm-9 col-xs-12">
+
+                        <input type="text" name="title" class="form-control" value="{$list['title']}" placeholder="" data-rule-required='true' />
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" >退款比例</label>
+                    
+
+                    <div class="col-sm-9 title" style='padding-right:0' >
+                        <input type="text" name="rate" class="form-control" value="{$list['rate']}"/>
+                        <span class='help-block'>不用加%号 </span>
+                    </div>
+
+                        
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" >备注</label>
+
+                    <div class="col-sm-9 title" style='padding-right:0' >
+                        <input type="text" name="remark" class="form-control" value="{$list['remark']}"/>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+                <div class="form-group"></div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" ></label>
+                    <div class="col-sm-9 col-xs-12">
+                        {ife 'sysset.printer' $list}
+                       <input type="submit"  value="提交" class="btn btn-primary"  />
+	       
+                        {/if}
+                       <input type="button" name="back" onclick='history.back()' {ifp 'sysset.printer.add|sysset.printer.edit'}style='margin-left:10px;'{/if} value="返回列表" class="btn btn-default" />
+                    </div>
+                </div>
+	 
+</form>
+		
+	</div>
+
+	</div>
+</div>
+
+ 
+<script language='javascript'>
+    var kw = {$kw};
+    function addType() {
+        $(".btn-add-type").button("loading");
+        $.ajax({ 
+            url: "{php echo webUrl('sysset/printer/tpl')}&kw="+kw,
+            cache: false
+        }).done(function (html) {
+            $(".btn-add-type").button("reset");
+            $("#type-items").append(html);
+        });
+        kw++;
+    }
+ 
+        $('form').submit(function(){
+      
+            if($('.key_item').length<=0){
+                tip.msgbox.err('请添加一条键!');
+                $('form').attr('stop',1);
+                return false;
+            }
+            var checkkw = true;
+            $(":input[name='data[]']").each(function(){
+                if ( $.trim( $(this).val() ) ==''){
+                    checkkw = false;
+                    tip.msgbox.err('请输入键名!');
+                    $(this).focus();
+                    $('form').attr('stop',1);
+                    return false;
+                }
+            });
+            if( !checkkw){
+                return false;
+            }
+            $('form').removeAttr('stop');
+            return true;
+      });
+
+    $(function () {
+        require(['jquery.caret'],function(){
+            var jiaodian;
+            $(document).on('focus', 'input,textarea',function () {
+                jiaodian = this;
+            });
+
+            $("a[href='JavaScript:']").click(function () {
+                if (jiaodian) {
+                    $(jiaodian).insertAtCaret("["+this.innerText+"]" );
+                }
+            })
+
+        });
+
+        $(document).off('change','input').on('change','input',function(){
+            var printer_preview = $("#printer_preview");
+            var print_title = $(':input[name="print_title"]');
+            var print_style = $(':input[name="print_style"]');
+            var key = $(':input[name="key[]"]');
+            var print_style_array = print_style.val().split('|');
+            var thead = '';
+            var tbody = '';
+            var array_len = 0;
+            $.each(print_style_array,function (index,iteam) {
+                var val_array = iteam.split(':');
+                if (val_array.length > 1){
+                    array_len = array_len+parseInt(val_array[1]);
+                    var width = parseInt(val_array[1])*5.7;
+                    thead += '<th style="width: '+width+'px">'+val_array[0]+'</th>';
+                }
+            });
+            if (array_len>32){
+                tip.msgbox.err('设置总共长度超过32字符');
+                return false;
+            }
+            $.each(key,function (index,iteam) {
+                var has = iteam.value.indexOf('|');
+                if (has != -1){
+                    var key_array = iteam.value.split('|');
+                    tbody += '<tr>';
+                    $.each(key_array,function (k,v) {
+                        v = v.replace('[商品名称]','测试商品');
+                        v = v.replace('[商品价格]','50');
+                        v = v.replace('[商品数量]','1');
+                        v = v.replace('[单商品合计]','50');
+                        tbody += '<td>'+v+'</td>';
+                    });
+                    tbody += '</tr>';
+                }else{
+                    tbody += '<tr><td colspan="'+print_style_array.length+'">'+iteam.value+'</td></tr>';
+                }
+            });
+            printer_preview.find("table thead").html(thead);
+            printer_preview.find("h3").html(print_title.val());
+            printer_preview.find("table tbody").html(tbody);
+        });
+    })
+ 
+    </script>
+
+{template '_footer'}

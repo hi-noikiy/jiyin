@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>我的二维码</title>
+		
+		<style type="text/css">
+			* {margin: 0;padding: 0;}
+			body,html {height: 100%;}
+			body {
+				background: url(img/jy_ewm_bg.jpg) no-repeat center center;
+				background-size: cover
+			}
+			.img { position: absolute; top: 50%; margin-top: -45px; left: 50%; margin-left: -45px; width: 90px; height: 90px; }
+			img.info-img { display: block; width: 80%; margin: 0 auto; }
+			.info { display: flex; display: -webkit-flex; align-items: center; -webkit-align-items: center; justify-content: center; -webkit-justify-content: center; position: absolute; top: 35px; background-color: #fff; border-radius: 5px; box-shadow: 5px 5px 10px #ddd; width: 80%; height: 82px;left: 50%; margin-left: -40%; font-size: 13px; color: #03354e; }
+			.info img {
+				width: 45px;
+				height: 45px;
+				margin-right: 10px;
+				float: left;
+			}
+			.info section {
+				float: left;
+				line-height: 24px;
+			}
+			.info::after {
+				content: '';
+				position: absolute;
+				margin-left: 10%;
+				left: 10px;
+				top: 0;
+				width: 5px;
+				height: 35px;
+				margin-top: -35px;
+				background-color: #ff8071;
+			}
+			.info::before {
+				content: '';
+				position: absolute;
+				margin-right: 10%;
+				right: 10px;
+				top: 0;
+				width: 5px;
+				height: 35px;
+				margin-top: -35px;
+				background-color: #ff8071;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="info">
+			<img src="img/head.png"/>
+			<section>
+				<p>我是谁并不重要</p>
+				<p>我是Babyfirst儿童基因检测代言</p>
+			</section>
+		</div>
+		<img src="img/jy_ewm.png" class="img" />
+	</body>
+</html>

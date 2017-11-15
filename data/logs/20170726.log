@@ -1,0 +1,5538 @@
+2017-07-26 09:13:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwIc88BPuMPn_m7RSXxO33Fc]]></FromUserName>
+<CreateTime>1501031582</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>30.484894</Latitude>
+<Longitude>114.469933</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 09:13:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwIc88BPuMPn_m7RSXxO33Fc',
+    'createtime' => '1501031582',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '30.484894',
+    'longitude' => '114.469933',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwIc88BPuMPn_m7RSXxO33Fc',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501031582',
+    'type' => 'trace',
+    'location_x' => '30.484894',
+    'location_y' => '114.469933',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 09:13:13 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 09:28:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwEcSJxG-nkrCpE37mJAqNc4]]></FromUserName>
+<CreateTime>1501032494</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-26 09:28:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'createtime' => '1501032494',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501032494',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '关注回复',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 09:28:24 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwEcSJxG-nkrCpE37mJAqNc4 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 09:28:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwEcSJxG-nkrCpE37mJAqNc4]]></FromUserName>
+<CreateTime>1501032497</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416680835</MenuId>
+</xml>
+
+2017-07-26 09:28:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'createtime' => '1501032497',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416680835',
+    'from' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501032497',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 09:28:28 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwEcSJxG-nkrCpE37mJAqNc4 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 09:28:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwEcSJxG-nkrCpE37mJAqNc4]]></FromUserName>
+<CreateTime>1501032507</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416680835</MenuId>
+</xml>
+
+2017-07-26 09:28:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'createtime' => '1501032507',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416680835',
+    'from' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501032507',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 09:28:38 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwEcSJxG-nkrCpE37mJAqNc4 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 09:28:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwEcSJxG-nkrCpE37mJAqNc4]]></FromUserName>
+<CreateTime>1501032526</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416680835</MenuId>
+</xml>
+
+2017-07-26 09:28:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'createtime' => '1501032526',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+    'menuid' => '416680835',
+    'from' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501032526',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 09:28:57 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwEcSJxG-nkrCpE37mJAqNc4 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 09:29:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwEcSJxG-nkrCpE37mJAqNc4]]></FromUserName>
+<CreateTime>1501032545</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[图文回复规则1]]></EventKey>
+</xml>
+
+2017-07-26 09:29:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'createtime' => '1501032545',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '图文回复规则1',
+    'from' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501032545',
+    'type' => 'text',
+    'content' => '图文回复规则1',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '图文回复规则1',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 09:29:16 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwEcSJxG-nkrCpE37mJAqNc4 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 09:29:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwEcSJxG-nkrCpE37mJAqNc4]]></FromUserName>
+<CreateTime>1501032558</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416680835</MenuId>
+</xml>
+
+2017-07-26 09:29:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'createtime' => '1501032558',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416680835',
+    'from' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501032558',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 09:29:29 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwEcSJxG-nkrCpE37mJAqNc4 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 09:29:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwEcSJxG-nkrCpE37mJAqNc4]]></FromUserName>
+<CreateTime>1501032567</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416680835</MenuId>
+</xml>
+
+2017-07-26 09:29:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'createtime' => '1501032567',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416680835',
+    'from' => 'o6A_bwEcSJxG-nkrCpE37mJAqNc4',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501032567',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 09:29:38 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwEcSJxG-nkrCpE37mJAqNc4 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:16:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501035387</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 10:16:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501035387',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501035387',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '20',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:16:38 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:28:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501036125</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526169</Latitude>
+<Longitude>113.933762</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 10:28:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501036125',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526169',
+    'longitude' => '113.933762',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036125',
+    'type' => 'trace',
+    'location_x' => '22.526169',
+    'location_y' => '113.933762',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:28:56 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 10:28:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501036126</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 10:28:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501036126',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036126',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:28:57 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:32:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501036325</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526121</Latitude>
+<Longitude>113.933823</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 10:32:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501036325',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526121',
+    'longitude' => '113.933823',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036325',
+    'type' => 'trace',
+    'location_x' => '22.526121',
+    'location_y' => '113.933823',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:32:16 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 10:32:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501036328</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 10:32:19 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501036328',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036328',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:32:19 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:39:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501036733</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526154</Latitude>
+<Longitude>113.933769</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 10:39:04 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501036733',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526154',
+    'longitude' => '113.933769',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036733',
+    'type' => 'trace',
+    'location_x' => '22.526154',
+    'location_y' => '113.933769',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:39:04 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 10:39:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501036739</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[图文回复规则1]]></EventKey>
+</xml>
+
+2017-07-26 10:39:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501036739',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '图文回复规则1',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036739',
+    'type' => 'text',
+    'content' => '图文回复规则1',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '图文回复规则1',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:39:10 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:39:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501036755</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689554</MenuId>
+</xml>
+
+2017-07-26 10:39:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501036755',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689554',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036755',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:39:26 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:39:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501036775</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689554</MenuId>
+</xml>
+
+2017-07-26 10:39:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501036775',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689554',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036775',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:39:46 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:39:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501036779</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689554</MenuId>
+</xml>
+
+2017-07-26 10:39:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501036779',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689554',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036779',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:39:50 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:39:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501036782</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 10:39:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501036782',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501036782',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '21',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:39:53 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:48:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037269</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526121</Latitude>
+<Longitude>113.933830</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 10:48:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037269',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526121',
+    'longitude' => '113.933830',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037269',
+    'type' => 'trace',
+    'location_x' => '22.526121',
+    'location_y' => '113.933830',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:48:00 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 10:48:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037271</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689554</MenuId>
+</xml>
+
+2017-07-26 10:48:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037271',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689554',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037271',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:48:02 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:48:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037294</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689554</MenuId>
+</xml>
+
+2017-07-26 10:48:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037294',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+    'menuid' => '416689554',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037294',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:48:25 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:48:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037307</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689554</MenuId>
+</xml>
+
+2017-07-26 10:48:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037307',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+    'menuid' => '416689554',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037307',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:48:38 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:48:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037309</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689554</MenuId>
+</xml>
+
+2017-07-26 10:48:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037309',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689554',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037309',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:48:40 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:49:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037368</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526144</Latitude>
+<Longitude>113.933823</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 10:49:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037368',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526144',
+    'longitude' => '113.933823',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037368',
+    'type' => 'trace',
+    'location_x' => '22.526144',
+    'location_y' => '113.933823',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:49:39 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 10:50:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037400</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689554</MenuId>
+</xml>
+
+2017-07-26 10:50:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037400',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689554',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037400',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:50:11 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:52:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037554</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526146</Latitude>
+<Longitude>113.933823</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 10:52:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037554',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526146',
+    'longitude' => '113.933823',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037554',
+    'type' => 'trace',
+    'location_x' => '22.526146',
+    'location_y' => '113.933823',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:52:45 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 10:52:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037555</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 10:52:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037555',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037555',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '22',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:52:46 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:52:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037567</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 10:52:58 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037567',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037567',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '22',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:52:58 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:53:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037590</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 10:53:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037590',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037590',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '22',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:53:21 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:54:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037634</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 10:54:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037634',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037634',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '23',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:54:05 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 10:56:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501037801</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 10:56:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501037801',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037801',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:56:52 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:58:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501037898</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-26 10:58:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501037898',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037898',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '关注回复',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:58:29 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:58:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501037901</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591211</Latitude>
+<Longitude>113.952179</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-07-26 10:58:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501037901',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591211',
+    'longitude' => '113.952179',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037901',
+    'type' => 'trace',
+    'location_x' => '22.591211',
+    'location_y' => '113.952179',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 10:58:32 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 10:58:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501037902</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 10:58:33 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501037902',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037902',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:58:33 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:58:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501037904</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000650&idx=1&sn=3fe77e237af1b5a3898505c901b7af34&chksm=68e5bb0d5f92321b5e803f51f4c6e6cdcce9175b887f95cf2162771d5192647163478933fa95&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 10:58:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501037904',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000650&idx=1&sn=3fe77e237af1b5a3898505c901b7af34&chksm=68e5bb0d5f92321b5e803f51f4c6e6cdcce9175b887f95cf2162771d5192647163478933fa95&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037904',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000650&idx=1&sn=3fe77e237af1b5a3898505c901b7af34&chksm=68e5bb0d5f92321b5e803f51f4c6e6cdcce9175b887f95cf2162771d5192647163478933fa95&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:58:35 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:58:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501037908</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 10:58:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501037908',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037908',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:58:39 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:58:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501037917</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 10:58:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501037917',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037917',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:58:48 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 10:59:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501037935</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 10:59:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501037935',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501037935',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 10:59:06 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 11:01:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501038057</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[检测列表]]></Content>
+<MsgId>6446909365283073953</MsgId>
+</xml>
+
+2017-07-26 11:01:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501038057',
+    'msgtype' => 'text',
+    'content' => '检测列表',
+    'msgid' => '6446909365283073953',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501038057',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '23',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:01:09 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 11:03:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501038217</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 11:03:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501038217',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501038217',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '24',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:03:48 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : news ;
+ArticleCount : 3 ;
+Articles : Array ;
+
+2017-07-26 11:10:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501038621</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526157</Latitude>
+<Longitude>113.933777</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 11:10:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501038621',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526157',
+    'longitude' => '113.933777',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501038621',
+    'type' => 'trace',
+    'location_x' => '22.526157',
+    'location_y' => '113.933777',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 11:10:32 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 11:10:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501038622</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 11:10:33 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501038622',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501038622',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '24',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:10:33 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 3 ;
+Articles : Array ;
+
+2017-07-26 11:11:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501038656</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 11:11:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501038656',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501038656',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '24',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:11:07 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 3 ;
+Articles : Array ;
+
+2017-07-26 11:12:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501038716</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526140</Latitude>
+<Longitude>113.933784</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 11:12:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501038716',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526140',
+    'longitude' => '113.933784',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501038716',
+    'type' => 'trace',
+    'location_x' => '22.526140',
+    'location_y' => '113.933784',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 11:12:07 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 11:12:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501038718</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 11:12:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501038718',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501038718',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '24',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:12:09 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : news ;
+ArticleCount : 3 ;
+Articles : Array ;
+
+2017-07-26 11:12:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501038722</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 11:12:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501038722',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501038722',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:12:13 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 11:19:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039170</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 11:19:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039170',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039170',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/s?__biz=MzIzNTU4MTkyOA==&mid=100000616&idx=1&sn=090a00e6f879a124c1514133a0b241e0&chksm=68e5bbef5f9232f97476305959777f15648b726e71b41cc06ae33b7e13660d437f1ad58fc1d8&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:19:41 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 11:19:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039177</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 11:19:48 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039177',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039177',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:19:48 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 11:19:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039185</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[图文回复规则1]]></EventKey>
+</xml>
+
+2017-07-26 11:19:56 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039185',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '图文回复规则1',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039185',
+    'type' => 'text',
+    'content' => '图文回复规则1',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '图文回复规则1',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:19:56 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 11:20:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039210</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 11:20:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039210',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039210',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:20:21 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 11:20:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 11:20:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039215',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039215',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:20:26 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 11:20:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039219</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 11:20:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039219',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039219',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '25',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:20:31 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 11:25:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039513</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526100</Latitude>
+<Longitude>113.933815</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 11:25:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039513',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526100',
+    'longitude' => '113.933815',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039513',
+    'type' => 'trace',
+    'location_x' => '22.526100',
+    'location_y' => '113.933815',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 11:25:24 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 11:25:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039522</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 11:25:33 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039522',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039522',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:25:33 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 11:25:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501039531</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 11:25:42 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501039531',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501039531',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 11:25:42 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 11:52:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwC7lIyPnGUAsLkbAo7tiHNQ]]></FromUserName>
+<CreateTime>1501041136</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>27.917345</Latitude>
+<Longitude>120.848854</Longitude>
+<Precision>35.000000</Precision>
+</xml>
+
+2017-07-26 11:52:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwC7lIyPnGUAsLkbAo7tiHNQ',
+    'createtime' => '1501041136',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '27.917345',
+    'longitude' => '120.848854',
+    'precision' => '35.000000',
+    'from' => 'o6A_bwC7lIyPnGUAsLkbAo7tiHNQ',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501041136',
+    'type' => 'trace',
+    'location_x' => '27.917345',
+    'location_y' => '120.848854',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 11:52:27 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 12:36:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwOfIrF9iLaYOiG8MJVXOkBk]]></FromUserName>
+<CreateTime>1501043762</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>45.769173</Latitude>
+<Longitude>126.654106</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-07-26 12:36:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwOfIrF9iLaYOiG8MJVXOkBk',
+    'createtime' => '1501043762',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '45.769173',
+    'longitude' => '126.654106',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwOfIrF9iLaYOiG8MJVXOkBk',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501043762',
+    'type' => 'trace',
+    'location_x' => '45.769173',
+    'location_y' => '126.654106',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 12:36:13 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 15:55:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501055729</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526373</Latitude>
+<Longitude>113.934006</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 15:55:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501055729',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526373',
+    'longitude' => '113.934006',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501055729',
+    'type' => 'trace',
+    'location_x' => '22.526373',
+    'location_y' => '113.934006',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 15:55:40 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 15:55:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501055732</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 15:55:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501055732',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501055732',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 15:55:43 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 16:51:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwPuhiun3fh1NMprPnaOWIJ0]]></FromUserName>
+<CreateTime>1501059077</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-26 17:11:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwD7qWT0bYupn0CuJR1amqtQ]]></FromUserName>
+<CreateTime>1501060280</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-26 17:11:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwD7qWT0bYupn0CuJR1amqtQ',
+    'createtime' => '1501060280',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o6A_bwD7qWT0bYupn0CuJR1amqtQ',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501060280',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '关注回复',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 17:11:31 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwD7qWT0bYupn0CuJR1amqtQ ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:00:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501063241</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526106</Latitude>
+<Longitude>113.933723</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 18:00:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501063241',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526106',
+    'longitude' => '113.933723',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501063241',
+    'type' => 'trace',
+    'location_x' => '22.526106',
+    'location_y' => '113.933723',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:00:52 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:00:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501063245</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[图文回复规则1]]></EventKey>
+</xml>
+
+2017-07-26 18:00:57 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501063245',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '图文回复规则1',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501063245',
+    'type' => 'text',
+    'content' => '图文回复规则1',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '12',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '17',
+    'rid' => '12',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '图文回复规则1',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:00:57 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 18:01:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501063280</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526104</Latitude>
+<Longitude>113.933777</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 18:01:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501063280',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526104',
+    'longitude' => '113.933777',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501063280',
+    'type' => 'trace',
+    'location_x' => '22.526104',
+    'location_y' => '113.933777',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:01:31 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:21:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwJPLU5MXsS-YMVWecUou4lw]]></FromUserName>
+<CreateTime>1501064464</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>39.981213</Latitude>
+<Longitude>116.359802</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-07-26 18:21:15 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwJPLU5MXsS-YMVWecUou4lw',
+    'createtime' => '1501064464',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '39.981213',
+    'longitude' => '116.359802',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwJPLU5MXsS-YMVWecUou4lw',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501064464',
+    'type' => 'trace',
+    'location_x' => '39.981213',
+    'location_y' => '116.359802',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:21:15 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:24:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501064634</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526079</Latitude>
+<Longitude>113.933746</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 18:24:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501064634',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526079',
+    'longitude' => '113.933746',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501064634',
+    'type' => 'trace',
+    'location_x' => '22.526079',
+    'location_y' => '113.933746',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:24:06 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:24:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501064641</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 18:24:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501064641',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501064641',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '25',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:24:12 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 18:24:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501064658</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 18:24:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501064658',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501064658',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:24:29 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:26:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501064774</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526127</Latitude>
+<Longitude>113.933769</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 18:26:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501064774',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526127',
+    'longitude' => '113.933769',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501064774',
+    'type' => 'trace',
+    'location_x' => '22.526127',
+    'location_y' => '113.933769',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:26:25 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:26:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501064786</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 18:26:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501064786',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501064786',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=4&sn=7fb79640deee369f01b26c05465b3d8d&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:26:37 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:27:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501064817</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 18:27:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501064817',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501064817',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:27:08 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:27:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501064854</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 18:27:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501064854',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501064854',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://mp.weixin.qq.com/mp/homepage?__biz=MzIzNTU4MTkyOA==&hid=5&sn=3ed15a74bd6996b732951cb420128bce&scene=18#wechat_redirect',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:27:46 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwAFw9wkD-1OzzElUM4jvVpU ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:31:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDRH-q5Nl2TIe_DAgpIdav0]]></FromUserName>
+<CreateTime>1501065086</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416689971</MenuId>
+</xml>
+
+2017-07-26 18:31:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'createtime' => '1501065086',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416689971',
+    'from' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501065086',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:31:37 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDRH-q5Nl2TIe_DAgpIdav0 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:38:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwAFw9wkD-1OzzElUM4jvVpU]]></FromUserName>
+<CreateTime>1501065492</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526096</Latitude>
+<Longitude>113.933784</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 18:38:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'createtime' => '1501065492',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526096',
+    'longitude' => '113.933784',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwAFw9wkD-1OzzElUM4jvVpU',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501065492',
+    'type' => 'trace',
+    'location_x' => '22.526096',
+    'location_y' => '113.933784',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:38:24 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:53:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066369</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:53:00 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066369',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066369',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:53:00 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:53:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066395</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:53:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066395',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066395',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:53:26 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:53:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066410</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:53:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066410',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066410',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:53:41 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:54:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501066431</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:54:02 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501066431',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066431',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:54:02 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:54:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066437</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:54:08 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066437',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066437',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:54:08 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:55:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066512</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526249</Latitude>
+<Longitude>113.933922</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 18:55:23 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066512',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526249',
+    'longitude' => '113.933922',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066512',
+    'type' => 'trace',
+    'location_x' => '22.526249',
+    'location_y' => '113.933922',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:55:23 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:55:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066513</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:55:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066513',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066513',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:55:24 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:56:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066590</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526138</Latitude>
+<Longitude>113.933792</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 18:56:41 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066590',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526138',
+    'longitude' => '113.933792',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066590',
+    'type' => 'trace',
+    'location_x' => '22.526138',
+    'location_y' => '113.933792',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:56:41 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:56:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066592</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:56:43 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066592',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066592',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:56:43 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:56:47 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1501066596</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测列表]]></EventKey>
+</xml>
+
+2017-07-26 18:56:47 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1501066596',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测列表',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066596',
+    'type' => 'text',
+    'content' => '检测列表',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '13',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '25',
+    'rid' => '13',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测列表',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:56:47 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-07-26 18:56:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066599</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526146</Latitude>
+<Longitude>113.933907</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 18:56:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066599',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526146',
+    'longitude' => '113.933907',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066599',
+    'type' => 'trace',
+    'location_x' => '22.526146',
+    'location_y' => '113.933907',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 18:56:50 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 18:56:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066600</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:56:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066600',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066600',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:56:51 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:59:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKOppntdK7NKXdA6F3Le_pI]]></FromUserName>
+<CreateTime>1501066740</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:59:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'createtime' => '1501066740',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwKOppntdK7NKXdA6F3Le_pI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066740',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:59:11 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwKOppntdK7NKXdA6F3Le_pI ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 18:59:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066774</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 18:59:45 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066774',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066774',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 18:59:45 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 19:00:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066807</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 19:00:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066807',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066807',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 19:00:18 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 19:01:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066886</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 19:01:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066886',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066886',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 19:01:37 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 19:02:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501066935</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699237</MenuId>
+</xml>
+
+2017-07-26 19:02:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501066935',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699237',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501066935',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 19:02:26 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 19:05:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501067137</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526155</Latitude>
+<Longitude>113.933868</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-26 19:05:49 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501067137',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526155',
+    'longitude' => '113.933868',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501067137',
+    'type' => 'trace',
+    'location_x' => '22.526155',
+    'location_y' => '113.933868',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-26 19:05:49 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-26 19:05:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501067139</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699372</MenuId>
+</xml>
+
+2017-07-26 19:05:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501067139',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699372',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501067139',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 19:05:50 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 19:15:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1501067740</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699372</MenuId>
+</xml>
+
+2017-07-26 19:15:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1501067740',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699372',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501067740',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 19:15:51 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 21:18:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDRH-q5Nl2TIe_DAgpIdav0]]></FromUserName>
+<CreateTime>1501075103</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416699372</MenuId>
+</xml>
+
+2017-07-26 21:18:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'createtime' => '1501075103',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416699372',
+    'from' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501075103',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 21:18:35 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDRH-q5Nl2TIe_DAgpIdav0 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 21:25:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDRH-q5Nl2TIe_DAgpIdav0]]></FromUserName>
+<CreateTime>1501075496</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416699372</MenuId>
+</xml>
+
+2017-07-26 21:25:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'createtime' => '1501075496',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416699372',
+    'from' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501075496',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 21:25:07 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDRH-q5Nl2TIe_DAgpIdav0 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 21:39:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDRH-q5Nl2TIe_DAgpIdav0]]></FromUserName>
+<CreateTime>1501076354</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416699372</MenuId>
+</xml>
+
+2017-07-26 21:39:25 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'createtime' => '1501076354',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416699372',
+    'from' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501076354',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 21:39:25 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDRH-q5Nl2TIe_DAgpIdav0 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 21:47:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDRH-q5Nl2TIe_DAgpIdav0]]></FromUserName>
+<CreateTime>1501076835</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416699372</MenuId>
+</xml>
+
+2017-07-26 21:47:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'createtime' => '1501076835',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416699372',
+    'from' => 'o6A_bwDRH-q5Nl2TIe_DAgpIdav0',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501076835',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 21:47:26 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDRH-q5Nl2TIe_DAgpIdav0 ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 23:26:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwHKFO0PKVILJp5yurstr96A]]></FromUserName>
+<CreateTime>1501082769</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list]]></EventKey>
+<MenuId>416699372</MenuId>
+</xml>
+
+2017-07-26 23:26:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwHKFO0PKVILJp5yurstr96A',
+    'createtime' => '1501082769',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+    'menuid' => '416699372',
+    'from' => 'o6A_bwHKFO0PKVILJp5yurstr96A',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501082769',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 23:26:20 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwHKFO0PKVILJp5yurstr96A ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+
+2017-07-26 23:26:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwHKFO0PKVILJp5yurstr96A]]></FromUserName>
+<CreateTime>1501082787</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.firstories.com/ReportQuery]]></EventKey>
+<MenuId>416699372</MenuId>
+</xml>
+
+2017-07-26 23:26:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwHKFO0PKVILJp5yurstr96A',
+    'createtime' => '1501082787',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.firstories.com/ReportQuery',
+    'menuid' => '416699372',
+    'from' => 'o6A_bwHKFO0PKVILJp5yurstr96A',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1501082787',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://www.firstories.com/ReportQuery',
+  ),
+  'module' => 'basic',
+  'rule' => '11',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '16',
+    'rid' => '11',
+    'uniacid' => '1',
+    'module' => 'basic',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-07-26 23:26:38 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwHKFO0PKVILJp5yurstr96A ;
+MsgType : text ;
+Content : 欢迎关注：Babyfirst科学育儿！
+在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！
+免费提供遗传咨询服务，为您解答一般育儿公众号无法解答的难题！ ;
+

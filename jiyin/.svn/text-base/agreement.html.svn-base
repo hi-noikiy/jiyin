@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/setFontsize.js"></script>
+		<style type="text/css">
+			.page {background-color: #fff; font-size: 0.24rem;}
+			.agree-wrap h1 { margin: 0.2rem 0; text-align: center; font-size: 0.3rem; font-weight: 700; } .agree-wrap { padding-bottom: 0.6rem; line-height: 0.44rem; } .desc { margin-bottom: 0.2rem; } h2 { font-weight: 700; } .wrap h2 { margin: 0.2rem 0; } .wrap p { text-indent: -0.24rem; padding-left: 0.22rem; }
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<a id="show-list" href="javascript:;" class="left fl"><img src="img/header_left_icon.png" /></a>
+			<a href="#" class="center"><img src="img/header_main_bg.png" /></a>
+			<a href="#" class="right fr"><img src="img/header_right_icon.png" /></a>
+		</header>
+		<div class="page">
+			<div id="mask" class="mask close-side hide" style=" background-color: transparent; z-index: 101;"></div>
+			<div id="side-list" class="header-side">
+				<div class="top clearfix"><img class="fl close-side" src="img/header_left_icon1.png" /></div>
+				<div class="text-img"><img src="img/header_side_text.png" /></div>
+				<ul class="side-link">
+					<li>
+						<a href="#"><img src="img/side_link1.png" />首页</a>
+					</li>
+					<li>
+						<a href="#"><img src="img/side_link2.png" />检测流程</a>
+					</li>
+					<li>
+						<a href="#"><img src="img/side_link3.png" />用户故事</a>
+					</li>
+					<li>
+						<a href="#"><img src="img/side_link4.png" />常见问题</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="content-pad agree-wrap">
+					<h1>BabyFirst™新生儿及儿童基因检测<br/>知情同意书</h1>
+					<div class="desc">
+						<p>BabyFirst™新生儿及儿童基因检测包括BabyFirst-健康，BabyFirst-用药，BabyFirst-成长共三项内容，通过采集孩子唾液中的DNA，采用新一代高通量测序技术进行基因信息的检测，帮助父母了解孩子在健康风险、药物反应、遗传特征等方面情况。受检者可以自行选择检测项目。</p>
+						<p>《知情同意书》旨在对BabyFirst中的重要问题予以说明和告知，帮助受检者及其法定监护人客观认识使用本产品进行基因检测的受益、可能存在的风险以及基因检测目前的局限性。受检者及其法定监护人在决定进行检测前须仔细阅读本文件，依法行使知情权。</p>
+					</div>
+					<div class="wrap">
+						<h2>通用内容：</h2>
+						<p>1.检测需要采集受检者唾液中的口腔脱落细胞。极少数的情况下，受检者样本中DNA量不足或不符合检测要求，第一次，我们会免费重新寄送采样盒给您，如果第二次取样仍然失败，您需支付采集器费用150元；如果您选择退款，我们会扣除第二次采集器的费用150元。请您按照采样说明操作，一次性成功取样。</p>
+						<p>2.BabyFirst对于检出基因变异的解读来源于科学文献和临床数据库。随着科学的发展，基因变异与遗传表现之间的关联也会不断更新。BabyFirst不会对受检者检测结果进行更新解读。</p>
+						<p>3.非经受检者同意或非经特定司法程序，我司不会将受检者的个人遗传信息向任何第三方公开或授权使用。</p>
+						<p>4.检测结果仅对送检样本负责。检测服务完成后，基因启示录会对受检者的样本进行保存。</p>
+						<p>5.监护人同意在隐去受检者个人身份信息后，受检者的数据和样本可能会被用于科学研究，教学等用途。受检者所共享的信息将会对未来新型的医疗诊断和药物研发提供帮助。</p>
+					</div>
+					<div class="wrap">
+						<h2> BabyFisrt-健康：</h2>
+						<p>1.检测疾病严格遵循国际相关行业协会（“美国医学遗传与基因组学院”和“欧洲人类遗传协会”）对“儿童及青少年”群体的伦理保护。只针对具有干预和治疗手段的疾病进行检测，早期发现后可以有效预防和控制。</p>
+						<p>2.本检测用于检测与疾病直接关联的基因变异，揭示变异与疾病的风险关系。检测结果可用于健康指导，但检测本身不是临床诊断。对受检者检测结果相对应的疾病症状、治疗及预后具体情况，需要咨询临床医生。</p>
+						<p>3.检测的疾病包括110种（详见检测列表），对应的检测基因包含了目前研究明确与这些疾病相关的绝大大部分基因，共221个。可以很大程度上发现检测疾病列表范围内的致病风险。但可能还存在一些未知的基因与检测疾病相关，因此未检出致病变异，并不能完全排除患病风险。</p>
+						<p>4.检测的变异范围包括221个基因的外显子及部分内含子区域的单碱基变异及微小的缺失插入变异。变异检测范围不包括一些特殊类型变异，如DNA大片段拷贝数变异等。由于目前技术的局限，并非所有变异范围都能检测到。</p>
+						<p>5.BabyFirst检测准确性高达99%以上。同所有的检测方法一  样，BabyFirst具有“假阳性”和“假阴性”的可能。</p>
+						<p>6.受检者的检测结果可能也会反映其兄弟姐妹或受检者父母的遗传信息。如果检测结果为阳性，除了为受检者提供可能的解决途径外，依据具体情况，我们会建议受检者父母，以及受检者的兄弟姐妹进行进一步检查。</p>
+						<p>7.考虑到基因检测的特殊性，知晓检测结果后，受检者及其家庭成员可能会出现不同程度的精神压力和负担，基因启示录不承担任何责任。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/swiper-3.4.2.min.js"></script>
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/tools.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				toggleSide();
+				Tools.swipe('.swiper-container');
+			};
+
+			function toggleSide() {
+				var listBtn = document.getElementById('show-list'),
+					sideList = document.getElementById('side-list'),
+					mask = document.getElementById('mask'),
+					closeEles = document.querySelectorAll('.close-side');
+				listBtn.onclick = function() {
+					showSide();
+				}
+				for(var i = 0; i < closeEles.length; i++) {
+					closeEles[i].onclick = function() {
+						hideSide();
+					};
+				}
+				var showSide = function() {
+					mask.style.display = 'block';
+					sideList.style.webkitTransform = 'translateX(0)';
+					sideList.style.transform = 'translateX(0)';
+				}
+				var hideSide = function() {
+					sideList.style.webkitTransform = 'translateX(-100%)';
+					sideList.style.transform = 'translateX(-100%)';
+					setTimeout(function() {
+						mask.style.display = 'none';
+					}, 300);
+				}
+			}
+		</script>
+	</body>
+
+</html>

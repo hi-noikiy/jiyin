@@ -1,0 +1,1 @@
+ and openid=:openid and ismr=0 and deleted=0 and uniacid=:uniacid  and merchshow=0  and status=0 and paytype!=3

@@ -1,0 +1,160 @@
+{template '_header'}
+
+
+<div class="page-heading"> <h2>第三方数据</h2><span>本数据来源ERP方通过API添加,用户登陆激活后会在会员管理中显示</span> </div>
+
+  <form action="./index.php" method="get" class="form-horizontal table-search" role="form">
+                <input type="hidden" name="c" value="site" />
+                <input type="hidden" name="a" value="entry" />
+                <input type="hidden" name="m" value="ewei_shopv2" />
+                <input type="hidden" name="do" value="web" />
+                <input type="hidden" name="r" value="member.otherlist" />
+<div class="page-toolbar row m-b-sm m-t-sm">
+                            <div class="col-sm-4">
+
+			   <div class="input-group-btn">
+			        <button class="btn btn-default btn-sm"  type="button" data-toggle='refresh'><i class='fa fa-refresh'></i></button>
+
+
+
+				{ifp 'member.list.delete'}
+			              <button class="btn btn-default btn-sm" type="button" data-toggle='batch-remove' data-confirm="确认要删除?" data-href="{php echo webUrl('member/otherlist/delete')}"><i class='fa fa-trash'></i> 删除</button>
+				 {/if}
+			   </div>
+                               </div>
+
+
+                            <div class="col-sm-6 pull-right">
+
+				<div class="input-group">
+                                          <input type="text" class="form-control input-sm"  name="realname" value="{$_GPC['realname']}" placeholder="可搜索昵称/姓名/手机号/ID"/>
+				 <span class="input-group-btn">
+
+                                        <button class="btn btn-sm btn-primary" type="submit"> 搜索</button>
+                                        <button type="submit" name="export" style="display: none;" value="1" class="btn btn-success btn-sm">导出</button>
+										
+				</span>
+                                </div>
+
+                            </div>
+</div>
+				<div class="page-toolbar row" {if $_GPC['followed']=='' && $_GPC['level']=='' && $_GPC['groupid']=='' && $_GPC['isblack']=='' && $_GPC['time']['start']==''  && $_GPC['time']['end']=='' }style='display:none;'{/if} id='moresearch' >
+
+
+					<div class="col-sm-12">
+
+
+
+
+
+
+
+
+ 
+
+
+
+                            </div>
+
+
+				</div>
+  </form>
+
+ 
+        <table class="table table-hover table-responsive">
+            <thead class="navbar-inner">
+                <tr>
+                      <th style="width:25px;"><input type='checkbox' /></th>
+		 
+
+                    <th style="width:80px;">手机号</th>
+                    <th style="width:50px;">昵称</th>
+                    <th style="width:50px;">头像</th>
+                    <th style="width:50px;">状态</th>
+                    <th style="width:100px;">入库时间</th>
+                    <th style="width:70px;">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {loop $list $row}
+                <tr rel="pop" data-title="ID: {$row['id']} " data-content="">
+					
+			
+                   	<td style="position: relative; ">
+					<input type='checkbox'   value="{$row['id']}"/></td>
+                    
+                    
+                    <td>{$row['mobile']}</td>
+                    <td>{$row['nickname']}</td>                  
+                    <td>
+											<div>
+                    	{if !empty($row['avatar'])}
+                         <img src='{php echo tomedia($row['avatar'])}' style='width:30px;height:30px;padding1px;border:1px solid #ccc' />
+                       {/if}
+                      </div>
+                    </td>
+ 										<td>
+ 											{if  $row['status']==1}未激活{else}已激活{/if}
+ 										</td>
+                    
+
+      
+                    <td>{php echo date("Y-m-d H:i:s",$row['addtime'])}</td>
+  
+                    
+
+		 
+
+					
+
+             
+                      
+                            <td  style="overflow:visible;">
+                        
+                        <div class="btn-group btn-group-sm" >
+                                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="javascript:;">操作 <span class="caret"></span></a>
+                                <ul class="dropdown-menu dropdown-menu-left" role="menu" style='z-index: 9999'>
+                               
+
+                        {ifp 'member.list.delete'}<li><a  data-toggle='ajaxRemove'  href="{php echo webUrl('member/otherlist/delete',array('id' => $row['id']));}" title='删除会员' data-confirm="确定要删除该数据吗？"><i class='fa fa-remove'></i> 删除数据</a></li>{/if}
+                                </ul>
+                            </div>
+
+               
+                    </td>
+                </tr>
+                {/loop}
+            </tbody>
+        </table>
+           {$pager}
+		   <script language="javascript">
+			     {if $opencommission}
+			require(['bootstrap'],function(){
+        $("[rel=pop]").popover({
+            trigger:'manual',
+            placement : 'left', 
+            title : $(this).data('title'),
+            html: 'true', 
+            content : $(this).data('content'),
+            animation: false
+        }).on("mouseenter", function () {
+                    var _this = this;
+                    $(this).popover("show"); 
+                    $(this).siblings(".popover").on("mouseleave", function () {
+                        $(_this).popover('hide');
+                    });
+                }).on("mouseleave", function () {
+                    var _this = this;
+                    setTimeout(function () {
+                        if (!$(".popover:hover").length) {
+                            $(_this).popover("hide")
+                        }
+                    }, 100);
+                });
+ 
+	 
+	   });
+	{/if}
+			   
+</script>
+{template '_footer'}

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>提交订单</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/setFontsize.js"></script>
+		<style type="text/css">
+			.content1 {bottom: 0.98rem;}
+			.content2 {bottom: 0.84rem;}
+			#page2 {font-size: 0.28rem;transform: translate3d(100%, 0, 0); transition: transform .3s ease-in;}
+			#agree-btn {position: fixed;bottom: 0;left: 0;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<a id="show-list" href="javascript:;" class="left fl"><img src="img/header_left_icon.png"/></a>
+			<a href="#" class="center"><img src="img/header_main_bg.png"/></a>
+			<a href="#" class="right fr"><img src="img/header_right_icon.png"/></a>
+		</header>
+		<div id="mask" class="mask close-side hide" style="background-color: transparent; z-index: 101;"></div>
+		<div id="side-list" class="header-side">
+			<div class="top clearfix"><img class="fl close-side" src="img/header_left_icon1.png" /></div>
+			<div class="text-img"><img src="img/header_side_text.png" /></div>
+			<ul class="side-link">
+				<li>
+					<a href="#"><img src="img/side_link1.png" />首页</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link2.png" />检测流程</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link3.png" />用户故事</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link4.png" />常见问题</a>
+				</li>
+			</ul>
+		</div>
+		<div class="page">
+			<div id="mask2" class="hide">
+				<div class="mask" onclick="$(this).parent().hide()"></div>
+				<div class="repair-mask">
+					<h2>请选择配送方式</h2>
+					<ul class="list">
+						<li class="seleted">顺丰包邮</li>
+						<li>快递自取</li>
+						<li>快递自取</li>
+						<li>快递自取</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content content1">
+				<ul id="car-list" class="car-list">
+					<li>
+						<div class="item clearfix">
+							<img class="fl" src="img/list_img.png" />
+							<div class="text fl">
+								<div class="title over_2">基因套餐一基因套餐一</div>
+								<div class="sub-title">￥666.00</div>
+								<div class="bottom clearfix">
+									<div class="btns fr">
+										<span class="minus">-</span>
+										<!--图 27px --><input type="number" class="input" value="1" /><span class="add">+</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div id="consigee" class="consigee-info">
+					<div class="input-wrap order-item">
+						<span class="fl">收件人</span>
+						<div class="input fl"><input type="text" verify msg-empty="收货人姓名" placeholder="请输入收件人姓名" /></div>
+					</div>
+					<div class="input-wrap order-item">
+						<span class="fl">电话</span>
+						<div class="input fl"><input type="number" verify="phone" msg-empty="收货人手机" msg="手机号码格式不正确" placeholder="请输入收件人手机号码" /></div>
+					</div>
+					<div class="input-wrap order-item">
+						<span class="fl">地址</span>
+						<div class="input fl"><input type="text" verify msg-empty="收货地址" placeholder="-省-市-区-街道-号" /></div>
+					</div>
+					<div class="order-item order-mar fs">
+						<span>配送方式</span><a id="mailsend" onclick="$('#mask2').show()" class="right" href="javascript:;">顺丰包邮</a>
+					</div>
+					<div id="coupon-sel" class="order-item order-bg fs">
+						<span>使用优惠码</span><a class="right" href="javascript:;"></a>
+					</div>
+					<div id="coupon-form" class="coupon-form content-pad hide">
+						<input type="text" value="" placeholder="请输入优惠码" />
+						<a href="javascript:;" class="btn">确定</a>
+					</div>
+					<div class="order-item fs order-bg">
+						<span>发票信息</span><a id="bill" class="right" href="javascript:;">不开发票</a>
+					</div>
+					<div class="input-wrap order-item">
+						<span class="fl">留言</span>
+						<div class="input fl"><input type="text" placeholder="请填写您对本次订单或商品有特殊的要求" /></div>
+					</div>
+				</div>
+				<!-- 点击跳转到协议页面 -->
+				<div class="order-xy toggle">同意 <a href="#">《基因启示录知情同意书》</a></div>
+			</div>
+			<div class="detail-footer clearfix">
+				<div class="wrap fr fv">
+					<section>
+						<p>合计：<span class="price">￥666.00</span></p>
+					</section>
+					<section id="sum-btn" class="button">提交订单</section>
+				</div>
+			</div>
+		</div>
+		<div id="page2" class="page hide">
+			<div class="content content2">
+				<div class="bill-top">
+					<h1>发票类型</h1>
+					<a href="javascript:;" id="no-bill" class="item sb block">不开发票</a>
+					<a href="javascript:;" id="bill-item" class="item active sb block">增值税普通发票</a>
+				</div>
+				<div class="bill-content">
+					<div class="item">
+						<h2>发票内容</h2>
+						<div class="singe active">基因检测服务费</div>
+					</div>
+					<div class="item">
+						<h2>发票信息</h2>
+						<a href="javascript:;" id="person" class="info active fl sb block">个人</a>
+						<a href="javascript:;" id="company" class="info fl sb block">单位</a>
+					</div>
+					<div id="company-content" class="hide" style="clear: both;">
+						<div class="input-wrap">
+							<div class="input"><input type="text" placeholder="请填写单位名称" /></div>
+						</div>
+						<div class="input-wrap">
+							<div class="input"><input type="text" placeholder="请填写纳税人识别码" /></div>
+						</div>
+					</div>
+					<div class="bill-b-tips">
+						温馨提示：自2017年7月1日起，购买方为企业的，索取增值税普通发票，购买方为企业的，索取增值税普通发票购买方为企业的，索取增值税普通发票购买方为企业的，索取增值税普通发票。索取增值税普通发票。索取增值税普通发票。索取增值税普通发票。索取增值税普通发票。
+					</div>
+				</div>
+			</div>
+			<a href="javascript:;" id="agree-btn" class="btn btn-primary" style="border-radius: 0;">确定</a>
+		</div>
+		
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/tools.js"></script>
+		<script type="text/javascript">
+			
+			window.onload = toggleSide;
+			
+			$(document).ready(function() {
+				const MAX = 9999;
+				var b_coupon = false;
+				
+				$('.toggle').click(function() {
+					if ($(this).hasClass('active')) {
+						$(this).removeClass('active');
+					}else {
+						$(this).addClass('active');
+					}
+				})
+				
+				Tools.selItems('.sb', Tools.ACTIVE_MODE, function(_this) {
+					if (_this.id === 'company') $('#company-content').show();
+					else if(_this.id === 'person') $('#company-content').hide();
+					else if(_this.id === 'no-bill') {hidePage();$('#bill').html(_this.innerText);}
+				})
+				
+				//优惠券切换
+				$('#coupon-sel').click(function () {
+					var _this = this;
+					$('#coupon-form').toggle(0, function() {
+						if (this.style.display === 'none') showCoupon(_this);
+						else hideCoupon(_this);
+					});
+				})
+				
+				//优惠券确定按钮点击
+				$('#coupon-form .btn').click(function() {
+					var input = $(this).prev();
+					var sel = document.getElementById('coupon-sel');
+					if (input.val() === '') {
+						Tools.toast('请输入优惠码');
+						return;
+					}
+					$('#coupon-form').hide();
+					showCoupon(sel);
+					$('#coupon-sel').find('.right').html('已使用优惠码 '+input.val());
+				});
+				
+				//开发票
+				$('#bill').click(showPage);
+				$('#agree-btn').click(function() {
+					var company = $('#company');
+					var isPass = true;
+					if (company.hasClass('active')) {
+						$('#company-content').find('input').each(function() {
+							if (this.value === '') { isPass=false; Tools.toast('请填写所有的必填项'); return false; }
+						});
+					}
+					if (isPass){
+						hidePage();
+						$('#bill').html($('#bill-item').text());
+					}
+				});
+				
+				//协议防止事件冒泡
+				$('.order-xy a').click(function (e) {e.stopPropagation();})
+				
+				//配送方式点击条目
+				$('#mask2').delegate('li', 'click', function() {
+					$('#mailsend').html(this.innerHTML);
+					$('#mask2').hide();
+				});
+				
+				$('#car-list').delegate('.add', 'click', function() {
+					var _this = $(this);
+					var prev = _this.prev();
+					var val = parseInt(prev.val());
+					val++;
+					val = Math.min(MAX, val);
+					prev.val(val);
+				});
+				$('#car-list').delegate('.minus', 'click', function() {
+					var _this = $(this);
+					var next = _this.next();
+					var val = parseInt(next.val());
+					val--;
+					val = Math.max(1, val);
+					next.val(val);
+				});
+				$('#car-list').delegate('.input', 'blur', function() {
+					var _this = $(this);
+					var val = _this.val();
+					var __this = _this.next()[0];
+					if(val > MAX || val < 1) {
+						reset(this);
+						Tools.toast('亲~商品数量必须在1~' + MAX + '之间');
+					}
+				});
+
+				//去结算点击
+				$('#sum-btn').click(function () {
+					var bool = Tools.validForm('#consigee', Tools.TOP_SHOW_MODE);
+					if (bool) {
+						//验证通过
+					}
+				});
+				
+				function showCoupon(_this) {
+					_this.style.borderBottom = '1px solid #c3c3c3';
+					_this.style.backgroundImage = 'url(img/right_arrow.png)';
+				}
+				
+				function hideCoupon(_this) {
+					_this.style.borderBottom = 'none';
+					_this.style.backgroundImage = 'url(img/bottom_arrow.png)';
+				}
+				
+				function reset(_this) {
+					_this.value = 1;
+				}
+				
+				function showPage() {
+					$('#page2').show()
+					setTimeout(function() {						
+						$('#page2').css('transform', 'translate3d(0, 0, 0)');
+					}, 50)
+				}
+				function hidePage() {
+					$('#page2').css('transform', 'translate3d(100%, 0, 0)');
+					setTimeout(function() {
+						$('#bill-item').addClass('active').siblings().removeClass('active');
+						$('#page2').hide();
+					},300)
+				}
+			})
+			
+			function toggleSide () {
+				var listBtn = document.getElementById('show-list'),
+					sideList = document.getElementById('side-list'),
+					mask = document.getElementById('mask'),
+					closeEles = document.querySelectorAll('.close-side');
+				listBtn.onclick = function () {
+					showSide();
+				}
+				for (var i=0;i<closeEles.length; i++) {
+					closeEles[i].onclick = function() {
+						hideSide();
+					};
+				}
+				var showSide = function () {
+					mask.style.display = 'block';
+					sideList.style.webkitTransform = 'translateX(0)';
+					sideList.style.transform = 'translateX(0)';
+				}
+				var hideSide = function () {
+					sideList.style.webkitTransform = 'translateX(-100%)';
+					sideList.style.transform = 'translateX(-100%)';
+					setTimeout(function () {
+						mask.style.display = 'none';
+					}, 300);
+				}
+			}
+		</script>
+	</body>
+</html>

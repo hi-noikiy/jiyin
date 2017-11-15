@@ -1,0 +1,128 @@
+
+			<div class="content">
+				<ul id="car-list" class="car-list order-list">
+					<li>
+						<div class="top fs"><span>下单时间:2017-06-07 10:43</span></div>
+						<div class="top fs"><span>订单编号:123456789</span><span class="status">待付款</span></div>
+						<div class="item clearfix">
+							<img class="fl" src="img/list_img.png" />
+							<div class="text fl">
+								<div class="title over_2">基因套餐一基因套餐一</div>
+								<div class="sub-title">￥666.00</div>
+								<div class="bottom clearfix">
+									x1
+								</div>
+							</div>
+						</div>
+						<div class="total tr fz-28">共1件商品  合计：<span class="price">￥666.00</span></div>
+						<div class="order-list-btns">
+							<a class="cancel-order" href="javascript:;">申请退款</a><a href="#">追踪物流</a><a href="#">确认收货</a>
+						</div>
+					</li>
+				</ul>
+				<div class="order-detail-desc">
+					<div class="top">
+						<div class="wrap">							
+							<em>某某某</em><span>183***********************</span>
+						</div>
+						<div class="wrap">广东省深圳市南山区西丽地铁站</div>
+					</div>
+					<div class="center">
+						<div class="wrap">
+							<em>支付方式：</em><span>微信</span>
+						</div>
+						<div class="wrap">
+							<em>商品合计:：</em><span>￥666.00</span>
+						</div>
+						<div class="wrap">
+							<em>运费:：</em><span>￥0.00</span>
+						</div>
+					</div>
+					<div class="bottom">
+						<div class="wrap">
+							<em>实付：</em><span>￥666.00</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/tools.js"></script>
+		<script type="text/javascript">
+			
+			window.onload = toggleSide;
+			
+			$(document).ready(function() {
+				var lwrap = $('#lwrap');
+				Tools.selItems('.sb', Tools.ACTIVE_MODE, function(_this) {
+					Tools.showIndicator();
+					setTimeout(function() {
+						Tools.hideIndicator();
+					},500)
+				});
+				
+				//取消订单回调
+				$('#car-list').delegate('.cancel-order', 'click', function() {
+					Tools.alert('确定要取消该订单吗？', function() {
+						Tools.toast('取消订单成功');
+					}, true);
+				});
+				//提醒发货回调
+				$('#car-list').delegate('.note-order', 'click', function() {
+					this.innerHTML = '已提醒'
+				});
+				//删除订单回调
+				$('#car-list').delegate('.del-order', 'click', function() {
+					Tools.alert('确定要删除该订单吗？', function() {
+						Tools.toast('删除订单成功');
+					}, true);
+				});
+				return (function() {
+					//滚动加载
+					var winH = $('.content').height();
+					var loaded = false;
+					$('.content').scroll(function() {
+						var scrollHeight = this.scrollHeight;
+						var scrollTop = this.scrollTop;
+						if (scrollTop + winH >= scrollHeight) {
+							console.log('到底了');
+							lwrap.show();
+							//假设加载完成
+							setTimeout(function() {
+								lwrap.hide();
+							}, 1000)
+						}
+					});
+				})();
+			})
+			
+			function toggleSide () {
+				var listBtn = document.getElementById('show-list'),
+					sideList = document.getElementById('side-list'),
+					mask = document.getElementById('mask'),
+					closeEles = document.querySelectorAll('.close-side');
+				listBtn.onclick = function () {
+					showSide();
+				}
+				for (var i=0;i<closeEles.length; i++) {
+					closeEles[i].onclick = function() {
+						hideSide();
+					};
+				}
+				var showSide = function () {
+					mask.style.display = 'block';
+					sideList.style.webkitTransform = 'translateX(0)';
+					sideList.style.transform = 'translateX(0)';
+				}
+				var hideSide = function () {
+					sideList.style.webkitTransform = 'translateX(-100%)';
+					sideList.style.transform = 'translateX(-100%)';
+					setTimeout(function () {
+						mask.style.display = 'none';
+					}, 300);
+				}
+			}
+		</script>
+	</body>
+</html>

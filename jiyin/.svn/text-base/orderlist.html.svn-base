@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>提交订单</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/setFontsize.js"></script>
+		
+		<style type="text/css">
+			.content {top: 1.74rem;}
+		</style>
+	</head>
+	<body>
+		<div id="mask" class="mask close-side hide" style="background-color: transparent; z-index: 101;"></div>
+		<div id="side-list" class="header-side">
+			<div class="top clearfix"><img class="fl close-side" src="img/header_left_icon1.png" /></div>
+			<div class="text-img"><img src="img/header_side_text.png" /></div>
+			<ul class="side-link">
+				<li>
+					<a href="#"><img src="img/side_link1.png" />首页</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link2.png" />检测流程</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link3.png" />用户故事</a>
+				</li>
+				<li>
+					<a href="#"><img src="img/side_link4.png" />常见问题</a>
+				</li>
+			</ul>
+		</div>
+		<div class="page">
+			<header>
+				<a id="show-list" href="javascript:;" class="left fl"><img src="img/header_left_icon.png" /></a>
+				<a href="#" class="center"><img src="img/header_main_bg.png" /></a>
+				<a href="#" class="right fr"><img src="img/header_right_icon.png" /></a>
+			</header>
+			<div class="tab fz-28 tc">
+				<div class="item sb active">全部</div>
+				<div class="item sb">待付款</div>
+				<div class="item sb">待发货</div>
+				<div class="item sb">待收货</div>
+				<div class="item sb">已完成</div>
+			</div>
+			<div class="content">
+				<ul id="car-list" class="car-list order-list">
+					<li>
+						<div class="top fs"><span>订单编号:123456789</span><span class="status">待付款</span></div>
+						<div class="item clearfix">
+							<img class="fl" src="img/list_img.png" />
+							<div class="text fl">
+								<div class="title over_2">基因套餐一基因套餐一</div>
+								<div class="sub-title">￥666.00</div>
+								<div class="bottom clearfix">
+									x1
+								</div>
+							</div>
+						</div>
+						<div class="total tr fz-28">共1件商品  合计：<span class="price">￥666.00</span></div>
+						<div class="order-list-btns">
+							<a class="cancel-order" href="javascript:;">取消订单</a><a href="#">立即支付</a>
+						</div>
+					</li>
+					<li>
+						<div class="top fs"><span>订单编号:123456789</span><span class="status">待发货</span></div>
+						<div class="item clearfix">
+							<img class="fl" src="img/list_img.png" />
+							<div class="text fl">
+								<div class="title over_2">基因套餐一基因套餐一</div>
+								<div class="sub-title">￥666.00</div>
+								<div class="bottom clearfix">
+									x1
+								</div>
+							</div>
+						</div>
+						<div class="total tr fz-28">共1件商品  合计：<span class="price">￥666.00</span></div>
+						<div class="order-list-btns">
+							<a href="#">申请退款</a><a class="note-order" href="javascript:;">提醒发货</a>
+						</div>
+					</li>
+					<li>
+						<div class="top fs"><span>订单编号:123456789</span><span class="status">待收货</span></div>
+						<div class="item clearfix">
+							<img class="fl" src="img/list_img.png" />
+							<div class="text fl">
+								<div class="title over_2">基因套餐一基因套餐一</div>
+								<div class="sub-title">￥666.00</div>
+								<div class="bottom clearfix">
+									x1
+								</div>
+							</div>
+						</div>
+						<div class="total tr fz-28">共1件商品  合计：<span class="price">￥666.00</span></div>
+						<div class="order-list-btns">
+							<a href="#">申请退款</a><a href="#">追踪物流</a><a class="note-order" href="javascript:;">确认收货</a>
+						</div>
+					</li>
+					<li>
+						<div class="top fs"><span>订单编号:123456789</span><span class="status">待收货</span></div>
+						<div class="item clearfix">
+							<img class="fl" src="img/list_img.png" />
+							<div class="text fl">
+								<div class="title over_2">基因套餐一基因套餐一</div>
+								<div class="sub-title">￥666.00</div>
+								<div class="bottom clearfix">
+									x1
+								</div>
+							</div>
+						</div>
+						<div class="total tr fz-28">共1件商品  合计：<span class="price">￥666.00</span></div>
+						<div class="order-list-btns">
+							<a href="javascript:;" class="del-order">删除订单</a><a href="#">追踪物流</a><a class="note-order" href="javascript:;">查看结果</a>
+						</div>
+					</li>
+				</ul>
+				<div id="lwrap" class="loadding hide">正在努力为您加载...</div>
+			</div>
+		</div>
+		
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/tools.js"></script>
+		<script type="text/javascript">
+			
+			window.onload = toggleSide;
+			
+			$(document).ready(function() {
+				var lwrap = $('#lwrap');
+				Tools.selItems('.sb', Tools.ACTIVE_MODE, function(_this) {
+					Tools.showIndicator();
+					setTimeout(function() {
+						Tools.hideIndicator();
+					},500)
+				});
+				
+				//取消订单回调
+				$('#car-list').delegate('.cancel-order', 'click', function() {
+					Tools.alert('确定要取消该订单吗？', function() {
+						Tools.toast('取消订单成功');
+					}, true);
+				});
+				//提醒发货回调
+				$('#car-list').delegate('.note-order', 'click', function() {
+					this.innerHTML = '已提醒'
+				});
+				//删除订单回调
+				$('#car-list').delegate('.del-order', 'click', function() {
+					Tools.alert('确定要删除该订单吗？', function() {
+						Tools.toast('删除订单成功');
+					}, true);
+				});
+				return (function() {
+					//滚动加载
+					var winH = $('.content').height();
+					var loaded = false;
+					$('.content').scroll(function() {
+						var scrollHeight = this.scrollHeight;
+						var scrollTop = this.scrollTop;
+						if (scrollTop + winH >= scrollHeight) {
+							console.log('到底了');
+							lwrap.show();
+							//假设加载完成
+							setTimeout(function() {
+								lwrap.hide();
+							}, 1000)
+						}
+					});
+				})();
+			})
+			
+			function toggleSide () {
+				var listBtn = document.getElementById('show-list'),
+					sideList = document.getElementById('side-list'),
+					mask = document.getElementById('mask'),
+					closeEles = document.querySelectorAll('.close-side');
+				listBtn.onclick = function () {
+					showSide();
+				}
+				for (var i=0;i<closeEles.length; i++) {
+					closeEles[i].onclick = function() {
+						hideSide();
+					};
+				}
+				var showSide = function () {
+					mask.style.display = 'block';
+					sideList.style.webkitTransform = 'translateX(0)';
+					sideList.style.transform = 'translateX(0)';
+				}
+				var hideSide = function () {
+					sideList.style.webkitTransform = 'translateX(-100%)';
+					sideList.style.transform = 'translateX(-100%)';
+					setTimeout(function () {
+						mask.style.display = 'none';
+					}, 300);
+				}
+			}
+		</script>
+	</body>
+</html>

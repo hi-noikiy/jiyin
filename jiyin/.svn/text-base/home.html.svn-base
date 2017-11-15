@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>会员中心</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/setFontsize.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<a id="show-list" href="javascript:;" class="left fl"><img src="img/header_left_icon.png" /></a>
+			<a href="#" class="center"><img src="img/header_main_bg.png" /></a>
+			<a href="#" class="right fr"><img src="img/header_right_icon.png" /></a>
+		</header>
+		<div class="page">
+			<div id="mask" class="mask close-side hide" style=" background-color: transparent; z-index: 101;"></div>
+			<div id="side-list" class="header-side">
+				<div class="top clearfix"><img class="fl close-side" src="img/header_left_icon1.png" /></div>
+				<div class="text-img"><img src="img/header_side_text.png" /></div>
+				<ul class="side-link">
+					<li>
+						<a href="#"><img src="img/side_link1.png" />首页</a>
+					</li>
+					<li>
+						<a href="#"><img src="img/side_link2.png" />检测流程</a>
+					</li>
+					<li>
+						<a href="#"><img src="img/side_link3.png" />用户故事</a>
+					</li>
+					<li>
+						<a href="#"><img src="img/side_link4.png" />常见问题</a>
+					</li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="home-top">
+					<div class="info">
+						<div class="head">
+							<img src="img/head.png">
+						</div>
+						<p class="name">Better me</p>
+						<div class="number-wrap">
+							<p class="number fhv"><img src="img/home_mobile.png"/>1333333333333</p>
+							<p class="number fhv over_1"><img src="img/home_address.png" style="width: 0.18rem;"/>地址:深圳市南山区西丽某某街道</p>
+						</div>
+					</div>
+				</div>
+				<div class="home-items">
+					<section class="item">
+						<div class="title">
+							<p>商城订单</p>
+							<p>
+								<a href="#" style="color: #eb569a">查看全部订单<img src="img/right_arrow.png" alt="" /></a>
+							</p>
+						</div>
+						<ul class="wrap wrap1">
+							<li>
+								<a href="#">
+									<div class="img">
+										<img src="img/daifukuan.png" alt="">
+									</div>
+									<p>待付款</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img">
+										<img src="img/daifahuo.png" alt="">
+									</div>
+									<p>待发货</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img">
+										<img src="img/daishouhuo.png" alt="">
+									</div>
+									<p>待收货</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img">
+										<img src="img/yishouhuo.png" alt="">
+				
+									</div>
+									<p>已收货</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="img">
+										<img src="img/tuikuan.png" alt="">
+				
+									</div>
+									<p>退款</p>
+								</a>
+							</li>
+						</ul>
+					</section>
+				</div>
+				<div class="home-links">
+					<a href="#" class="link fv"><img class="left" src="img/wdshdz.png" />
+						<div class="border">收货地址管理<img class="right" src="img/right_arrow.png" alt="" /></div>
+					</a>
+					<a href="#" class="link fv"><img class="left" src="img/wdgwc.png" />
+						<div class="border">我的购物车<img class="right" src="img/right_arrow.png" alt="" /></div>
+					</a>
+					<a href="#" class="link fv"><img class="left" src="img/hyxz.png" />
+						<div class="border">会员须知<img class="right" src="img/right_arrow.png" alt="" /></div>
+					</a>
+					<a href="#" class="link fv"><img class="left" src="img/lxwm.png" />
+						<div class="border">联系我们<img class="right" src="img/right_arrow.png" alt="" /></div>
+					</a>
+					<a href="#" class="link fv"><img class="left" src="img/wxkf.png" />
+						<div class="border">微信客服<img class="right" src="img/right_arrow.png" alt="" /></div>
+					</a>
+					<a href="#" class="link fv"><img class="left" src="img/bjxx.png" />
+						<div class="border">编辑信息<img class="right" src="img/right_arrow.png" alt="" /></div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			window.onload = toggleSide;
+
+			function toggleSide() {
+				var listBtn = document.getElementById('show-list'),
+					sideList = document.getElementById('side-list'),
+					mask = document.getElementById('mask'),
+					closeEles = document.querySelectorAll('.close-side');
+				listBtn.onclick = function() {
+					showSide();
+				}
+				for(var i = 0; i < closeEles.length; i++) {
+					closeEles[i].onclick = function() {
+						hideSide();
+					};
+				}
+				var showSide = function() {
+					mask.style.display = 'block';
+					sideList.style.webkitTransform = 'translateX(0)';
+					sideList.style.transform = 'translateX(0)';
+				}
+				var hideSide = function() {
+					sideList.style.webkitTransform = 'translateX(-100%)';
+					sideList.style.transform = 'translateX(-100%)';
+					setTimeout(function() {
+						mask.style.display = 'none';
+					}, 300);
+				}
+			}
+		</script>
+	</body>
+
+</html>

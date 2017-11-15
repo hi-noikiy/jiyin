@@ -1,0 +1,93 @@
+{template '_header'}
+
+<style type="text/css">
+	input { appearance: none; -webkit-appearance: none; }
+</style>
+<div class='fui-page  fui-page-current'>
+    <div class="fui-header">
+		<div class="fui-header-left">
+			<a class="back" onclick='location.back()'></a>
+		</div>
+		<div class="title">手机验证码登陆</div>
+		<div class="fui-header-right">&nbsp;</div>
+	</div>
+
+	<div class='fui-content' style='margin-top:5px;'>
+
+		<style>.fui-cell-group .fui-cell .fui-cell-label {width: 4.5rem;}</style>
+
+		<div class="fui-cell-group">
+
+			<div class="fui-cell must">
+				<div class="fui-cell-label">手机号</div>
+				<div class="fui-cell-info"><input type="tel" class='fui-input' id='mobile' verify="phone" msg-empty="手机号码" msg="手机号格式有误" name='mobile' placeholder="请输入您的手机号"  value="" maxlength="11" /></div>
+			</div>
+
+
+
+			<div class="fui-cell must">
+				<div class="fui-cell-label">验证码</div>
+				<div class="fui-cell-info"><input type="tel" verify msg-empty="验证码" class='fui-input' id='verifycode' name='verifycode' placeholder="短信验证码"  value="" maxlength="10" /></div>
+				<div class="fui-cell-remark noremark"><input type="button" class="btn btn-default btn-default-o btn-sm" id="btnCode" value="获取验证码" /></div>
+			</div>
+
+
+		</div>
+
+		<a href='#' id='btnSubmit' class='btn btn-success block'>马上登陆</a>
+		<a href='{php echo  mobileUrl('member/bind'); }'  class='btn btn-success block' style="margin-top: 20px;background-color: #ffffff;color: green;" >立即注册</a>		
+	</div>
+	<script src="../addons/ewei_shopv2/static/jiyin/js/tools.js"></script>
+	<script type="text/javascript">
+		require(['core', 'tpl'], function (core, tpl) {
+			//点击了登陆按钮
+			$('#btnSubmit').click(function(){
+					var b = Tools.validForm('body', Tools.TOAST_MODE);
+					if(!b){
+						return;
+					}
+					var data={
+						mobile:$('#mobile').val(),
+						code:$('#verifycode').val(),
+					};
+					
+					
+					core.json('member/verify',data, function(ret) {
+						
+						console.log(ret);
+						if(ret.status==1){
+							Tools.toast('登陆成功!');
+							setTimeout(function(){var url='{php echo  mobileUrl(''); }';window.location.href=url;},1000);
+						}
+						else{
+							Tools.toast(ret.result.message);						
+						}
+					}, false, true);
+			});	
+			
+			Tools.sendSms('#btnCode', {
+				cookiename: 'time1',
+				color: '#fff',
+				time: 60,
+				number: '#mobile',
+				ajax: function(obj) {
+					//发送验证码需要执行的操作
+					var mobile=$('#mobile').val();
+					core.json('member/bind/smscode2', {mobile:mobile}, function(ret) {
+						
+						console.log(ret);
+						Tools.toast(ret.result.message);
+					}, false, true);					
+					
+				} 
+			});
+		});
+		
+		
+
+		
+	</script>
+
+</div>
+{template '_footer'}
+

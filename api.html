@@ -1,0 +1,49 @@
+【接口说明】
+	1.所有的请求接口都需要在url中携带apikey和apipassword参数,apikey=TEST_APISTORE ,apipassword=0HTCv5hvPH
+		eg:http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=api.member.insert&apikey=TEST_APISTORE&apipassword=0HTCv5hvPH
+	2.返回的数据全部是json形式
+	3.请求返回结果统一为以下格式:
+		{
+		    "status": 0,
+		    "result": {
+		        "message": "apipassword不得为空!"
+		    }
+		}	
+	status:0失败,1成功
+	result:携带返回的具体原因和提示信息返回
+	4.接口不支持跨域CURl,如果需要跨域再开启.
+
+
+	
+【会员模块】
+
+1.新增会员接口
+	请求地址:http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=api.member.insert
+		  eg:http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=api.member.insert&apikey=TEST_APISTORE&apipassword=0HTCv5hvPH	
+	请求参数:mobile(用户名手机号),password(用户密码加密后的),salt('salt值'),nickname(昵称),avatar(头像,必须是完整的url)
+	参数是否全部需要:是
+	请求方式:POST
+	
+2.更新会员接口
+	请求地址:http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=api.member.update
+	请求参数:username(用户名手机号),password(用户密码),nickname(昵称),avatar(头像,必须是完整的url)
+	参数是否全部需要:必须携带用户名,其他参数存在即修改,不存在不修改	
+	请求方式:POST
+
+【商品模块】
+
+1.新增商品模块
+	请求地址:http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=api.shopgood.insert&apikey=TEST_APISTORE&apipassword=0HTCv5hvPH	
+		eg:
+	请求参数:name(商品名称),marketprice(商品价格),description(商品简介),content(商品详情),thumb(商品主图),total(库存),sales(销量),uid(商品在ERP系统中的id),status(商品状态,1正常,2即将上线,3.下架,4.售罄,5其他)
+	参数是否全部需要:是
+	请求方式:POST
+	
+2.更新商品模块
+	请求地址:http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=api.shopgood.update&apikey=TEST_APISTORE&apipassword=0HTCv5hvPH	
+		eg:
+	请求参数:name(商品名称),marketprice(商品价格),description(商品简介),content(商品详情),thumb(商品主图),total(库存),sales(销量),uid(商品在ERP系统中的id)
+	参数是否全部需要:是
+	请求方式:POST
+
+2017.7.25 19:00更新

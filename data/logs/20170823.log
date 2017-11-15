@@ -1,0 +1,2572 @@
+2017-08-23 08:10:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503447002</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.546684</Latitude>
+<Longitude>113.965813</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 08:10:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503447002',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.546684',
+    'longitude' => '113.965813',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503447002',
+    'type' => 'trace',
+    'location_x' => '22.546684',
+    'location_y' => '113.965813',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 08:10:21 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 08:10:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503447010</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 08:10:29 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503447010',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503447010',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 08:10:29 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNvFwl-3enEP7t-40PTV3LI ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 08:49:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwFsspwK4E8kIb3wcRF3oh3I]]></FromUserName>
+<CreateTime>1503449345</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.560705</Latitude>
+<Longitude>113.881622</Longitude>
+<Precision>31.000000</Precision>
+</xml>
+
+2017-08-23 08:49:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwFsspwK4E8kIb3wcRF3oh3I',
+    'createtime' => '1503449345',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.560705',
+    'longitude' => '113.881622',
+    'precision' => '31.000000',
+    'from' => 'o6A_bwFsspwK4E8kIb3wcRF3oh3I',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503449345',
+    'type' => 'trace',
+    'location_x' => '22.560705',
+    'location_y' => '113.881622',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 08:49:24 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 08:49:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwFsspwK4E8kIb3wcRF3oh3I]]></FromUserName>
+<CreateTime>1503449361</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.560705</Latitude>
+<Longitude>113.881622</Longitude>
+<Precision>31.000000</Precision>
+</xml>
+
+2017-08-23 08:49:39 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwFsspwK4E8kIb3wcRF3oh3I',
+    'createtime' => '1503449361',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.560705',
+    'longitude' => '113.881622',
+    'precision' => '31.000000',
+    'from' => 'o6A_bwFsspwK4E8kIb3wcRF3oh3I',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503449361',
+    'type' => 'trace',
+    'location_x' => '22.560705',
+    'location_y' => '113.881622',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 08:49:39 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 09:18:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwBK2uctKc4_S3fb6eEay6ns]]></FromUserName>
+<CreateTime>1503451078</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>31.755396</Latitude>
+<Longitude>116.523415</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-23 09:18:16 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwBK2uctKc4_S3fb6eEay6ns',
+    'createtime' => '1503451078',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '31.755396',
+    'longitude' => '116.523415',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwBK2uctKc4_S3fb6eEay6ns',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503451078',
+    'type' => 'trace',
+    'location_x' => '31.755396',
+    'location_y' => '116.523415',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 09:18:16 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 09:57:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503453441</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 09:57:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503453441',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503453441',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 09:57:40 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNvFwl-3enEP7t-40PTV3LI ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 09:58:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1503453474</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 09:58:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1503453474',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503453474',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 09:58:13 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 10:00:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1503453611</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:00:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503453612</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:00:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1503453612</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[kf_create_session]]></Event>
+<KfAccount><![CDATA[kf2011@gh_9312a3c1979a]]></KfAccount>
+</xml>
+
+2017-08-23 10:00:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1503453612',
+    'msgtype' => 'event',
+    'event' => 'kf_create_session',
+    'kfaccount' => 'kf2011@gh_9312a3c1979a',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503453612',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => NULL,
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:00:31 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:00:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1503453611',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503453611',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:00:31 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 欢迎使用多客服系统,已经接入客服系统,请直接回复! ;
+
+2017-08-23 10:00:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503453613</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[kf_create_session]]></Event>
+<KfAccount><![CDATA[kf2011@gh_9312a3c1979a]]></KfAccount>
+</xml>
+
+2017-08-23 10:00:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503453613',
+    'msgtype' => 'event',
+    'event' => 'kf_create_session',
+    'kfaccount' => 'kf2011@gh_9312a3c1979a',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503453613',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => NULL,
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:00:31 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNvFwl-3enEP7t-40PTV3LI ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:00:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503453612',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503453612',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:00:32 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNvFwl-3enEP7t-40PTV3LI ;
+MsgType : text ;
+Content : 欢迎使用多客服系统,已经接入客服系统,请直接回复! ;
+
+2017-08-23 10:07:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503454002</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[kf_close_session]]></Event>
+<KfAccount><![CDATA[kf2011@gh_9312a3c1979a]]></KfAccount>
+<CloseType><![CDATA[KF]]></CloseType>
+</xml>
+
+2017-08-23 10:07:01 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503454002',
+    'msgtype' => 'event',
+    'event' => 'kf_close_session',
+    'kfaccount' => 'kf2011@gh_9312a3c1979a',
+    'closetype' => 'KF',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454002',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => NULL,
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:07:01 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNvFwl-3enEP7t-40PTV3LI ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:07:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503454033</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591188</Latitude>
+<Longitude>113.951942</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 10:07:31 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503454033',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591188',
+    'longitude' => '113.951942',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454033',
+    'type' => 'trace',
+    'location_x' => '22.591188',
+    'location_y' => '113.951942',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 10:07:31 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 10:07:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503454038</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[监控]]></Content>
+<MsgId>6457285924666593485</MsgId>
+</xml>
+
+2017-08-23 10:07:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503454038',
+    'msgtype' => 'text',
+    'content' => '关注回复',
+    'msgid' => '6457285924666593485',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454038',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => true,
+    'source' => 'default',
+    'original' => '监控',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:07:36 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNvFwl-3enEP7t-40PTV3LI ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:07:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503454048</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591188</Latitude>
+<Longitude>113.951942</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 10:07:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503454048',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591188',
+    'longitude' => '113.951942',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454048',
+    'type' => 'trace',
+    'location_x' => '22.591188',
+    'location_y' => '113.951942',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 10:07:46 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 10:07:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503454053</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591187</Latitude>
+<Longitude>113.951965</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 10:07:51 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503454053',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591187',
+    'longitude' => '113.951965',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454053',
+    'type' => 'trace',
+    'location_x' => '22.591187',
+    'location_y' => '113.951965',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 10:07:51 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 10:21:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1503454874</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&wxref=mp.weixin.qq.com#wechat_redirect]]></EventKey>
+<MenuId>417440392</MenuId>
+</xml>
+
+2017-08-23 10:21:33 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1503454874',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&wxref=mp.weixin.qq.com#wechat_redirect',
+    'menuid' => '417440392',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454874',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&wxref=mp.weixin.qq.com#wechat_redirect',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:21:33 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:21:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1503454881</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service]]></EventKey>
+<MenuId>417440392</MenuId>
+</xml>
+
+2017-08-23 10:21:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1503454881',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service',
+    'menuid' => '417440392',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454881',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:21:40 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:22:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1503454939</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:22:38 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1503454939',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454939',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:22:38 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 10:22:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDxP7UVeXCdAO2GMsnSGCKA]]></FromUserName>
+<CreateTime>1503454947</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service]]></EventKey>
+<MenuId>417440392</MenuId>
+</xml>
+
+2017-08-23 10:22:46 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'createtime' => '1503454947',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service',
+    'menuid' => '417440392',
+    'from' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454947',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:22:46 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDxP7UVeXCdAO2GMsnSGCKA ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:23:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDxP7UVeXCdAO2GMsnSGCKA]]></FromUserName>
+<CreateTime>1503454966</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:23:05 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'createtime' => '1503454966',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454966',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:23:05 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDxP7UVeXCdAO2GMsnSGCKA ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 10:23:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDxP7UVeXCdAO2GMsnSGCKA]]></FromUserName>
+<CreateTime>1503454971</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service]]></EventKey>
+<MenuId>417440392</MenuId>
+</xml>
+
+2017-08-23 10:23:09 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'createtime' => '1503454971',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service',
+    'menuid' => '417440392',
+    'from' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454971',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&do=index&m=customer_service',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:23:09 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDxP7UVeXCdAO2GMsnSGCKA ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:23:19 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDxP7UVeXCdAO2GMsnSGCKA]]></FromUserName>
+<CreateTime>1503454981</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:23:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'createtime' => '1503454981',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454981',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:23:20 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDxP7UVeXCdAO2GMsnSGCKA ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 10:23:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1503454988</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526075</Latitude>
+<Longitude>113.933830</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-23 10:23:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1503454988',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526075',
+    'longitude' => '113.933830',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454988',
+    'type' => 'trace',
+    'location_x' => '22.526075',
+    'location_y' => '113.933830',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 10:23:26 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 10:23:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1503454989</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:23:28 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1503454989',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503454989',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:23:28 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 10:24:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1503455071</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:24:50 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1503455071',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503455071',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:24:50 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 10:25:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1503455091</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591206</Latitude>
+<Longitude>113.952187</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-23 10:25:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1503455091',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591206',
+    'longitude' => '113.952187',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503455091',
+    'type' => 'trace',
+    'location_x' => '22.591206',
+    'location_y' => '113.952187',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 10:25:10 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 10:25:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1503455095</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526117</Latitude>
+<Longitude>113.933861</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-23 10:25:13 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1503455095',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526117',
+    'longitude' => '113.933861',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503455095',
+    'type' => 'trace',
+    'location_x' => '22.526117',
+    'location_y' => '113.933861',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 10:25:13 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 10:25:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1503455096</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&wxref=mp.weixin.qq.com#wechat_redirect]]></EventKey>
+<MenuId>417452671</MenuId>
+</xml>
+
+2017-08-23 10:25:14 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1503455096',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&wxref=mp.weixin.qq.com#wechat_redirect',
+    'menuid' => '417452671',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503455096',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&wxref=mp.weixin.qq.com#wechat_redirect',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:25:14 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:30:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwG2dWDVE3ZnQLx8xPERpgo8]]></FromUserName>
+<CreateTime>1503455412</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[kf_close_session]]></Event>
+<KfAccount><![CDATA[kf2011@gh_9312a3c1979a]]></KfAccount>
+<CloseType><![CDATA[TIMEOUT]]></CloseType>
+</xml>
+
+2017-08-23 10:30:30 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'createtime' => '1503455412',
+    'msgtype' => 'event',
+    'event' => 'kf_close_session',
+    'kfaccount' => 'kf2011@gh_9312a3c1979a',
+    'closetype' => 'TIMEOUT',
+    'from' => 'o6A_bwG2dWDVE3ZnQLx8xPERpgo8',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503455412',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => NULL,
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:30:30 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwG2dWDVE3ZnQLx8xPERpgo8 ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 10:34:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDxP7UVeXCdAO2GMsnSGCKA]]></FromUserName>
+<CreateTime>1503455658</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:34:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'createtime' => '1503455658',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503455658',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:34:37 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDxP7UVeXCdAO2GMsnSGCKA ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 10:39:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503455933</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591156</Latitude>
+<Longitude>113.951942</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 10:39:11 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503455933',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591156',
+    'longitude' => '113.951942',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503455933',
+    'type' => 'trace',
+    'location_x' => '22.591156',
+    'location_y' => '113.951942',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 10:39:11 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 10:46:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1503456392</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 10:46:52 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1503456392',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503456392',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 10:46:52 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwGrzaeFrlVWvk03IHIECY4U ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 11:23:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1503458598</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.525789</Latitude>
+<Longitude>113.934189</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-23 11:23:37 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1503458598',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.525789',
+    'longitude' => '113.934189',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503458598',
+    'type' => 'trace',
+    'location_x' => '22.525789',
+    'location_y' => '113.934189',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 11:23:37 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 11:38:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwKsNIS4zksp4mtYewEZr38Q]]></FromUserName>
+<CreateTime>1503459489</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-23 11:39:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwBYe0Le6dfRD1kLQ20zhnAs]]></FromUserName>
+<CreateTime>1503459554</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>45.911449</Latitude>
+<Longitude>126.578087</Longitude>
+<Precision>70.000000</Precision>
+</xml>
+
+2017-08-23 11:39:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwBYe0Le6dfRD1kLQ20zhnAs',
+    'createtime' => '1503459554',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '45.911449',
+    'longitude' => '126.578087',
+    'precision' => '70.000000',
+    'from' => 'o6A_bwBYe0Le6dfRD1kLQ20zhnAs',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503459554',
+    'type' => 'trace',
+    'location_x' => '45.911449',
+    'location_y' => '126.578087',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 11:39:32 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 11:50:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwDxP7UVeXCdAO2GMsnSGCKA]]></FromUserName>
+<CreateTime>1503460207</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 11:50:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'createtime' => '1503460207',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwDxP7UVeXCdAO2GMsnSGCKA',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503460207',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 11:50:26 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwDxP7UVeXCdAO2GMsnSGCKA ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 12:00:55 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503460837</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591188</Latitude>
+<Longitude>113.951988</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 12:00:55 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503460837',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591188',
+    'longitude' => '113.951988',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503460837',
+    'type' => 'trace',
+    'location_x' => '22.591188',
+    'location_y' => '113.951988',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 12:00:55 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 12:01:12 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503460853</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.591221</Latitude>
+<Longitude>113.952049</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 12:01:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503460853',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.591221',
+    'longitude' => '113.952049',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503460853',
+    'type' => 'trace',
+    'location_x' => '22.591221',
+    'location_y' => '113.952049',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 12:01:12 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 12:01:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503460858</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 12:01:17 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503460858',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503460858',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 12:01:17 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNvFwl-3enEP7t-40PTV3LI ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+
+2017-08-23 15:46:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGl5O8kI5x-3pe3QCpCY5ow]]></FromUserName>
+<CreateTime>1503474376</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.526272</Latitude>
+<Longitude>113.933922</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 15:46:35 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGl5O8kI5x-3pe3QCpCY5ow',
+    'createtime' => '1503474376',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.526272',
+    'longitude' => '113.933922',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwGl5O8kI5x-3pe3QCpCY5ow',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503474376',
+    'type' => 'trace',
+    'location_x' => '22.526272',
+    'location_y' => '113.933922',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 15:46:35 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 22:12:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwHIOt4LqSIueo8hYS0syzdY]]></FromUserName>
+<CreateTime>1503497519</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-23 22:12:18 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwHIOt4LqSIueo8hYS0syzdY',
+    'createtime' => '1503497519',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o6A_bwHIOt4LqSIueo8hYS0syzdY',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503497519',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '关注回复',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 22:12:18 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwHIOt4LqSIueo8hYS0syzdY ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 22:12:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwHIOt4LqSIueo8hYS0syzdY]]></FromUserName>
+<CreateTime>1503497522</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.587683</Latitude>
+<Longitude>114.133018</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-23 22:12:21 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwHIOt4LqSIueo8hYS0syzdY',
+    'createtime' => '1503497522',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.587683',
+    'longitude' => '114.133018',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwHIOt4LqSIueo8hYS0syzdY',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503497522',
+    'type' => 'trace',
+    'location_x' => '22.587683',
+    'location_y' => '114.133018',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 22:12:21 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 23:09:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwLiFCiXM8DIy-OlErwQwm7Y]]></FromUserName>
+<CreateTime>1503500928</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-08-23 23:09:07 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'createtime' => '1503500928',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503500928',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '关注回复',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 23:09:07 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwLiFCiXM8DIy-OlErwQwm7Y ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 23:09:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwLiFCiXM8DIy-OlErwQwm7Y]]></FromUserName>
+<CreateTime>1503500931</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.518520</Latitude>
+<Longitude>114.048294</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-08-23 23:09:10 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'createtime' => '1503500931',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.518520',
+    'longitude' => '114.048294',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503500931',
+    'type' => 'trace',
+    'location_x' => '22.518520',
+    'location_y' => '114.048294',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 23:09:10 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 23:10:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwLiFCiXM8DIy-OlErwQwm7Y]]></FromUserName>
+<CreateTime>1503501001</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17]]></EventKey>
+<MenuId>417452671</MenuId>
+</xml>
+
+2017-08-23 23:10:20 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'createtime' => '1503501001',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+    'menuid' => '417452671',
+    'from' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503501001',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 23:10:20 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwLiFCiXM8DIy-OlErwQwm7Y ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 23:13:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwLiFCiXM8DIy-OlErwQwm7Y]]></FromUserName>
+<CreateTime>1503501185</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.519112</Latitude>
+<Longitude>114.047562</Longitude>
+<Precision>75.662819</Precision>
+</xml>
+
+2017-08-23 23:13:24 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'createtime' => '1503501185',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.519112',
+    'longitude' => '114.047562',
+    'precision' => '75.662819',
+    'from' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503501185',
+    'type' => 'trace',
+    'location_x' => '22.519112',
+    'location_y' => '114.047562',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 23:13:24 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 23:13:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwLiFCiXM8DIy-OlErwQwm7Y]]></FromUserName>
+<CreateTime>1503501187</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17]]></EventKey>
+<MenuId>417452671</MenuId>
+</xml>
+
+2017-08-23 23:13:26 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'createtime' => '1503501187',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+    'menuid' => '417452671',
+    'from' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503501187',
+    'type' => 'text',
+    'content' => '关注回复',
+    'redirection' => true,
+    'source' => 'default',
+    'original' => 'http://jiyin.baimuv.com/app/index.php?i=1&c=entry&m=ewei_shopv2&do=mobile&r=article.list&cateid=17',
+  ),
+  'module' => 'images',
+  'rule' => '29',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '53',
+    'rid' => '29',
+    'uniacid' => '1',
+    'module' => 'images',
+    'content' => '关注回复',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 23:13:26 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwLiFCiXM8DIy-OlErwQwm7Y ;
+MsgType : image ;
+Image : Array ;
+
+2017-08-23 23:13:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwLiFCiXM8DIy-OlErwQwm7Y]]></FromUserName>
+<CreateTime>1503501202</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[检测  流程]]></EventKey>
+</xml>
+
+2017-08-23 23:13:40 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'createtime' => '1503501202',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '检测  流程',
+    'from' => 'o6A_bwLiFCiXM8DIy-OlErwQwm7Y',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503501202',
+    'type' => 'text',
+    'content' => '检测  流程',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'news',
+  'rule' => '25',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '42',
+    'rid' => '25',
+    'uniacid' => '1',
+    'module' => 'news',
+    'content' => '检测  流程',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 23:13:40 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwLiFCiXM8DIy-OlErwQwm7Y ;
+MsgType : news ;
+ArticleCount : 1 ;
+Articles : Array ;
+
+2017-08-23 23:34:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503502453</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.546600</Latitude>
+<Longitude>113.966103</Longitude>
+<Precision>30.000000</Precision>
+</xml>
+
+2017-08-23 23:34:32 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503502453',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.546600',
+    'longitude' => '113.966103',
+    'precision' => '30.000000',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503502453',
+    'type' => 'trace',
+    'location_x' => '22.546600',
+    'location_y' => '113.966103',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-08-23 23:34:32 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-08-23 23:34:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNvFwl-3enEP7t-40PTV3LI]]></FromUserName>
+<CreateTime>1503502457</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[CLICK]]></Event>
+<EventKey><![CDATA[客服]]></EventKey>
+</xml>
+
+2017-08-23 23:34:36 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'createtime' => '1503502457',
+    'msgtype' => 'event',
+    'event' => 'CLICK',
+    'eventkey' => '客服',
+    'from' => 'o6A_bwNvFwl-3enEP7t-40PTV3LI',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1503502457',
+    'type' => 'text',
+    'content' => '客服',
+    'redirection' => true,
+    'source' => 'click',
+  ),
+  'module' => 'userapi',
+  'rule' => '28',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '51',
+    'rid' => '28',
+    'uniacid' => '1',
+    'module' => 'userapi',
+    'content' => '客服',
+    'type' => '1',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-08-23 23:34:36 response :
+------------
+Array:
+FromUserName : gh_9312a3c1979a ;
+ToUserName : o6A_bwNvFwl-3enEP7t-40PTV3LI ;
+MsgType : text ;
+Content : 您好,当前无客服在线! ;
+

@@ -1,0 +1,181 @@
+2017-07-22 09:57:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwPwVYlDWRU_LFWqIUT-DTgg]]></FromUserName>
+<CreateTime>1500688616</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>1.311026</Latitude>
+<Longitude>103.856468</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-22 09:57:06 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwPwVYlDWRU_LFWqIUT-DTgg',
+    'createtime' => '1500688616',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '1.311026',
+    'longitude' => '103.856468',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwPwVYlDWRU_LFWqIUT-DTgg',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1500688616',
+    'type' => 'trace',
+    'location_x' => '1.311026',
+    'location_y' => '103.856468',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-22 09:57:06 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-22 16:32:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwGrzaeFrlVWvk03IHIECY4U]]></FromUserName>
+<CreateTime>1500712337</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>22.514133</Latitude>
+<Longitude>113.902618</Longitude>
+<Precision>65.000000</Precision>
+</xml>
+
+2017-07-22 16:32:27 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'createtime' => '1500712337',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '22.514133',
+    'longitude' => '113.902618',
+    'precision' => '65.000000',
+    'from' => 'o6A_bwGrzaeFrlVWvk03IHIECY4U',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1500712337',
+    'type' => 'trace',
+    'location_x' => '22.514133',
+    'location_y' => '113.902618',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-22 16:32:27 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-22 17:47:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNKgvcFR7uM9euJ9mZ7VUUg]]></FromUserName>
+<CreateTime>1500716869</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-07-22 17:47:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNKgvcFR7uM9euJ9mZ7VUUg',
+    'createtime' => '1500716869',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'o6A_bwNKgvcFR7uM9euJ9mZ7VUUg',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1500716869',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+    'content' => '欢迎关注：Babyfirst科学育儿！ 在这里，你可以从基因角度了解宝宝育儿知识，让育儿更省心省力！ 免费提供遗传咨询服',
+  ),
+)
+
+2017-07-22 17:47:59 response :
+------------
+
+2017-07-22 17:48:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwNKgvcFR7uM9euJ9mZ7VUUg]]></FromUserName>
+<CreateTime>1500716873</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[LOCATION]]></Event>
+<Latitude>49.251900</Latitude>
+<Longitude>119.729660</Longitude>
+<Precision>5.000000</Precision>
+</xml>
+
+2017-07-22 17:48:03 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_9312a3c1979a',
+    'fromusername' => 'o6A_bwNKgvcFR7uM9euJ9mZ7VUUg',
+    'createtime' => '1500716873',
+    'msgtype' => 'event',
+    'event' => 'LOCATION',
+    'latitude' => '49.251900',
+    'longitude' => '119.729660',
+    'precision' => '5.000000',
+    'from' => 'o6A_bwNKgvcFR7uM9euJ9mZ7VUUg',
+    'to' => 'gh_9312a3c1979a',
+    'time' => '1500716873',
+    'type' => 'trace',
+    'location_x' => '49.251900',
+    'location_y' => '119.729660',
+  ),
+  'module' => 'default',
+  'rule' => '-1',
+)
+
+2017-07-22 17:48:03 response :
+------------
+Array:
+errno : -1 ;
+message : Invaild value ;
+
+2017-07-22 17:53:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_9312a3c1979a]]></ToUserName>
+<FromUserName><![CDATA[o6A_bwCVJqukpryG9dzE-j9y5kv4]]></FromUserName>
+<CreateTime>1500717181</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+

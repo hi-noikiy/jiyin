@@ -1,0 +1,141 @@
+10
+
+dir
+1814
+svn://127.0.0.1/jiyin/addons/ewei_shopv2/plugin/merch/core/web/manage
+svn://127.0.0.1/jiyin
+
+
+
+2017-07-20T08:04:20.367224Z
+1
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+b9e481f2-1a3f-485a-b400-4fa223903dde
+
+plugins
+dir
+
+diypage
+dir
+
+sale
+dir
+
+apply
+dir
+
+sysset
+dir
+
+statistics
+dir
+
+index.php
+file
+
+
+
+
+2017-07-20T08:06:47.000000Z
+405dfc48230ef8dfa634100f74396658
+2017-07-20T08:04:20.367224Z
+1
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1566
+
+login.php
+file
+
+
+
+
+2017-07-20T08:06:47.000000Z
+78a33839c67ce099afa29c2897e1eba0
+2017-07-20T08:04:20.367224Z
+1
+gao
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1956
+
+perm
+dir
+
+creditshop
+dir
+
+taobao
+dir
+
+member
+dir
+
+shop
+dir
+
+order
+dir
+
+goods
+dir
+
+exhelper
+dir
+
+util
+dir
+

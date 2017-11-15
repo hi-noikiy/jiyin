@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+		<title>基因测试</title>
+	</head>
+	<body>
+		<h1>基因</h1>
+		<ol>
+			<li><a href="http://jiyin.baimuv.com/jiyin/index.html">首页</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/agreement.html">订单协议</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/detail.html">商品详情</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/home.html">个人中心</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/order.html">订单页面</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/orderdetail.html">订单详情</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/orderlist.html">订单列表</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/orderpay.html">订单支付</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/paysuccess.html">支付成功</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/refund.html">退款原因</a></li>
+			<li><a href="http://jiyin.baimuv.com/jiyin/shopcar.html">购物车</a></li>
+		</ol>
+	</body>
+</html>
